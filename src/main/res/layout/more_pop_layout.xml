@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/pop_layout"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:background="@drawable/abc_ab_bottom_solid_dark_holo"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_watse"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/lieanerlayout_bg"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/waste"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="清空数据"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:id="@+id/ll_seemessage"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/lieanerlayout_bg"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/seemessage"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="查看记录"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:id="@+id/ll_storage"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/lieanerlayout_bg"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/storage"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="存储数据"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>

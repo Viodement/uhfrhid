@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.senter.demo.uhf"
+          android:versionCode="8"
+          android:versionName="1.8.1">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15"/>
+
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".util.App"
+        android:icon="@drawable/appreader"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <activity android:name=".commonActivity.ForgetPasswordActivity"/>
+
+        <!-- ===================== -->
+        <!-- main activity -->
+        <!-- ========= android:screenOrientation="portrait" ============ -->
+        <activity
+            android:name=".commonActivity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- ===================== -->
+        <!-- activities for model D2 -->
+        <!-- ===================== -->
+        <activity
+            android:name=".modelD2.Activity_FunctionSelection"
+            android:label="Model D2"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar"/>
+        <activity
+            android:name=".modelD2.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"/>
+        <activity
+            android:name=".modelD2.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"/>
+        <activity
+            android:name=".modelD2.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"/>
+        <activity
+            android:name=".modelD2.Activity5Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+
+        <!-- ===================== -->
+        <!-- Common ui -->
+        <!-- ===================== -->
+        <activity
+            android:name=".record.ActivityRecordsList"
+            android:label="@string/RecordFind"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"/>
+        <activity
+            android:name=".record.ActivityRecordDisplayer"
+            android:label="@string/RecordCheck"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"/>
+        <activity
+            android:name=".commonActivity.UseageActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity
+            android:name=".commonActivity.LoginActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity android:name=".commonActivity.ShowMessageActivity"/>
+        <activity android:name=".commonActivity.GetMessageActivity"/>
+        <activity android:name=".commonActivity.ViewPagerActivity">
+        </activity>
+        <activity android:name=".modelD2.SettingActivity">
+        </activity>
+        <activity
+            android:name=".commonActivity.ProductActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+        </activity>
+    </application>
+
+</manifest>
