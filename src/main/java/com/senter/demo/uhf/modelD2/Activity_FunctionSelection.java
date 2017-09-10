@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.senter.demo.common.misc.ActivityHelper;
 import com.senter.demo.uhf.R;
+import com.senter.demo.uhf.commonActivity.Activityocation;
 import com.senter.demo.uhf.commonActivity.GetMessageActivity;
 import com.senter.demo.uhf.commonActivity.ProductActivity;
 import com.senter.demo.uhf.commonActivity.UseageActivity;
@@ -35,6 +36,7 @@ public class Activity_FunctionSelection extends Activity {
     ImageView useageImageView;
     ImageView productImageView;
     ImageView equipmentImageView;
+    ImageView locationImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -162,7 +164,15 @@ public class Activity_FunctionSelection extends Activity {
             useageImageView = (ImageView) findViewById(R.id.iv_useage);
             productImageView = (ImageView) findViewById(R.id.iv_product);
             equipmentImageView = (ImageView) findViewById(R.id.iv_equipment);
-
+            locationImageView = (ImageView) findViewById(R.id.iv_location);
+            locationImageView.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent locationIntent = new Intent();
+                    locationIntent.setClass(Activity_FunctionSelection.this, Activityocation.class);
+                    startActivity(locationIntent);
+                }
+            });
             addmessage();
         }
     }

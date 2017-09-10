@@ -438,7 +438,7 @@ public class LoginActivity extends Activity {
         } else {
             password = passwordEdittext.getText().toString().trim();
         }
-        initAsyncGet();
-//        uhfModelChoiced(StUhf.InterrogatorModel.InterrogatorModelD2);
+        //initAsyncGet();
+       uhfModelChoiced(StUhf.InterrogatorModel.InterrogatorModelD2);
     }
 }

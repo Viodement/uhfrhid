@@ -73,7 +73,7 @@
         android:layout_height="wrap_content" >
 
         <TextView
-            android:id="@+id/idE27SettingsActivity_FixFrequency_tvShow"
+            android:id="@+id/idE27SettingsActivity_FixFrequency_tvShow1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Length："
