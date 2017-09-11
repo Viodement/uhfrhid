@@ -81,7 +81,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         initView();
-        Listener();
+//        Listener();
     }
 
     private void Listener() {
@@ -265,53 +265,16 @@ public class LoginActivity extends Activity {
         usernameEdittext = (EditText) findViewById(R.id.et_user);
         //初始化密码输入框
         passwordEdittext = (EditText) findViewById(R.id.et_password);
-        //初始化清空用户名按钮
-        usernameEmptyButton = (ImageView) findViewById(R.id.iv_empty_username);
-        //初始化清空密码按钮
-        passwordEmptyButton = (ImageView) findViewById(R.id.iv_empty_password);
+//        //初始化清空用户名按钮
+//        usernameEmptyButton = (ImageView) findViewById(R.id.iv_empty_username);
+//        //初始化清空密码按钮
+//        passwordEmptyButton = (ImageView) findViewById(R.id.iv_empty_password);
         //初始化记住密码复选框
         rememberCheckBox = (CheckBox) findViewById(R.id.cb_rememberpwd);
         //初始化密码可见按钮
-        lookpassword = (Button) findViewById(R.id.iv_lookpassword);
+//        lookpassword = (Button) findViewById(R.id.iv_lookpassword);
         //初始化忘记密码按钮
         forgetPassword = (Button) findViewById(R.id.button_forget);
-    }
-
-    /**
-     * 模式选择
-     *
-     * @param interrogatorModel
-     */
-    protected void uhfModelChoiced(StUhf.InterrogatorModel interrogatorModel) {
-        if (interrogatorModel == null) {
-            if (App.getUhfWithDetectionAutomaticallyIfNeed() != null) {
-                startFunctionSelectionActivity(App.uhf().getInterrogatorModel());
-                finish();
-            } else {
-                ah.showToastShort("no uhf module detected");
-            }
-        } else {
-            if (App.getUhf(interrogatorModel) != null) {
-                startFunctionSelectionActivity(interrogatorModel);
-                finish();
-            } else {
-                ah.showToastShort("no uhf module detected");
-            }
-        }
-    }
-
-    private final void startFunctionSelectionActivity(StUhf.InterrogatorModel interrogatorModel) {
-        switch (interrogatorModel) {
-
-            case InterrogatorModelD2: {
-                ah.startActivity(com.senter.demo.uhf.modelD2.Activity_FunctionSelection.class);
-                //ah.startActivity(com.senter.demo.uhf.commonActivity.ViewPagerActivity.class);
-                break;
-            }
-            case InterrogatorModelD1://down through
-            default:
-                throw new IllegalArgumentException();
-        }
     }
 
     private void initAsyncGet() {
@@ -351,51 +314,30 @@ public class LoginActivity extends Activity {
 
                         SharedPreferences sharedPreferences = getSharedPreferences(Contants.SP_INFOS, MODE_PRIVATE);
                         sharedPreferences.edit().putString(Contants.TOKEN, "Bearer " + map.get("idToken")).commit();
-
+                        /**
+                         * 显示正在登录对话框
+                         */
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                //实例化AlertDialog对象
-                                AlertDialog.Builder mbuilder = new AlertDialog.Builder(LoginActivity.this);
-                                //设置图标
+                                //实例化ProgressDialog对象
+                                ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this);
                                 //设置内容
-                                mbuilder.setTitle("工作模式");
-                                //设置content来显示信息
-                                mbuilder.setTitle("D2模式");
-                                //设置一个PositiveButton
-                                mbuilder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                                progressDialog.setTitle("请等待");
+                                //显示信息
+                                progressDialog.setMessage("正在登录，请稍候");
+                                progressDialog.setCancelable(false);
+                                progressDialog.show();
+                                new Thread(new Runnable() {
                                     @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        uhfModelChoiced(StUhf.InterrogatorModel.InterrogatorModelD2);
-                                        /**
-                                         * 显示正在登录对话框
-                                         */
-                                        runOnUiThread(new Runnable() {
-                                            @Override
-                                            public void run() {
-                                                //实例化ProgressDialog对象
-                                                ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this);
-                                                //设置内容
-                                                progressDialog.setTitle("请等待");
-                                                //显示信息
-                                                progressDialog.setMessage("正在登录，请稍候");
-                                                progressDialog.setCancelable(false);
-                                                progressDialog.show();
-                                                new Thread(new Runnable() {
-                                                    @Override
-                                                    public void run() {
-                                                        try {
-                                                            Thread.sleep(2000);
-                                                        } catch (InterruptedException e) {
-                                                            e.printStackTrace();
-                                                        }
-                                                    }
-                                                });
-                                            }
-                                        });
+                                    public void run() {
+                                        try {
+                                            Thread.sleep(2000);
+                                        } catch (InterruptedException e) {
+                                            e.printStackTrace();
+                                        }
                                     }
                                 });
-                                mbuilder.show();
                             }
                         });
                     }
@@ -417,11 +359,9 @@ public class LoginActivity extends Activity {
     }
 
     /**
-     * 登陆点击事件
-     *
-     * @param view
+     * 判断用户名密码是否为空
      */
-    public void loginOnClick(final View view) {
+    private void emptyornot() {
         String username = usernameEdittext.getText().toString().trim();
         if (username == null || username.length() <= 0) {
             usernameEdittext.requestFocus();
@@ -438,7 +378,16 @@ public class LoginActivity extends Activity {
         } else {
             password = passwordEdittext.getText().toString().trim();
         }
-        //initAsyncGet();
-       uhfModelChoiced(StUhf.InterrogatorModel.InterrogatorModelD2);
+    }
+
+    /**
+     * 登陆点击事件
+     *
+     * @param view
+     */
+    public void loginOnClick(final View view) {
+        emptyornot();
+        Intent login = new Intent(LoginActivity.this,HomePageActivity.class);
+        startActivity(login);
     }
 }

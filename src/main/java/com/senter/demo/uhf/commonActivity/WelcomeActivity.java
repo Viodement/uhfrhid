@@ -18,7 +18,7 @@ public class WelcomeActivity extends Activity {
             @Override
             public void run() {
                 Intent intent = new Intent();
-                intent.setClass(WelcomeActivity.this, ModelChoiceActivity.class);
+                intent.setClass(WelcomeActivity.this, LoginActivity.class);
                 startActivity(intent);
                 WelcomeActivity.this.finish();
             }

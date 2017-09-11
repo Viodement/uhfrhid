@@ -129,7 +129,9 @@
             android:name=".commonActivity.ProductActivity"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity android:name=".commonActivity.Activityocation" />
-        <activity android:name=".commonActivity.ModelChoiceActivity"></activity>
+        <activity android:name=".commonActivity.ModelChoiceActivity" />
+        <activity android:name=".commonActivity.HomePageActivity" />
+        <activity android:name=".commonActivity.NoticeActivity"></activity>
     </application>
 
 </manifest>
