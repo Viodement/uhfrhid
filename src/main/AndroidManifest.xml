@@ -131,7 +131,10 @@
         <activity android:name=".commonActivity.Activityocation" />
         <activity android:name=".commonActivity.ModelChoiceActivity" />
         <activity android:name=".commonActivity.HomePageActivity" />
-        <activity android:name=".commonActivity.NoticeActivity"></activity>
+        <activity android:name=".commonActivity.NoticeActivity" />
+        <activity android:name=".commonActivity.EquipActivity" />
+        <activity android:name=".commonActivity.ComeActivity" />
+        <activity android:name=".commonActivity.InActivity"></activity>
     </application>
 
 </manifest>

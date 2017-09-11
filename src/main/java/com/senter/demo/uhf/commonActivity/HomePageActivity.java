@@ -84,7 +84,8 @@ public class HomePageActivity extends Activity {
         toolsImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent equipIntent = new Intent(HomePageActivity.this,EquipActivity.class);
+                startActivity(equipIntent);
             }
         });
         //知识库
