@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#DCFEFF"
+              android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/idE20InventoryActivity_inShow"
+        layout="@layout/common_lv2overlap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"/>
+
+    <LinearLayout
+        android:id="@+id/idE20InventoryMain_llInvestory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/idE20InventoryMain_llInvestory_rgRbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventorys_border"
+            android:focusable="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/idE20InventoryMain_llInvestory_rbSingleStep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/SingleLableOne"/>
+
+            <RadioButton
+                android:id="@+id/idE20InventoryMain_llInvestory_rbSingleTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/SingleLableCucle"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/idE20InventoryMain_llInvestory_rbAntiCollision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/AvoidCollisionCycle"
+                android:visibility="gone"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/idE20InventoryMain_llInvestory_btnStart"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="200dp"
+                android:background="@drawable/w_r_ibuttonicon"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/Inventory"
+                android:textColor="#E3F2FD"/>
+
+            <Button
+                android:id="@+id/gaininvertory"
+                style="@style/AppClickableHightStyle"
+                android:layout_width="200dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/w_r_ibuttonicon"
+                android:onClick="gaininvertoryMsg"
+                android:text="上传"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/layout/activity20inventory.xml -->

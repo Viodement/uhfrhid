@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="2dp"
+        android:color="#003399" />
+    <solid android:color="#CCFFFF" />
+    <corners android:radius="8dp" />
+</shape><!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/drawable/showmsg_bg.xml -->

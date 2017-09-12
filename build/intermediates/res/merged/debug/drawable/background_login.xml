@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#fff" />
+    <stroke android:width="2dp"  android:color="#D7D7D7"/>
+
+</shape><!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/drawable/background_login.xml -->

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#DCFEFF"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/idE21ReadActivity_inShow"
+        layout="@layout/common_lv2overlap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"/>
+
+    <LinearLayout
+        android:id="@+id/idE21ReadActivity_llRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/idE21ReadActivity_inDestTypes"
+            layout="@layout/common_dstoptypes"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#DCFEFF"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        style="@style/AppClickableHightStyle"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.7"
+                        android:gravity="center"
+                        android:text="Bank"/>
+
+                    <Spinner
+                        android:id="@+id/idE21ReadActivity_spinnerBanks"
+                        style="@style/AppClickableHightStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:entries="@array/banksStrings"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/AppClickableHightStyle"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/startAddr"/>
+
+                    <EditText
+                        android:id="@+id/idE21ReadActivity_etPointer"
+                        style="@style/AppClickableHightStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:digits="0123456789"
+                        android:ems="3"
+                        android:hint="@string/decimalism"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/AppClickableHightStyle"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#DCFEFF"
+                    android:gravity="center"
+                    android:text="@string/ReadNumber"/>
+
+                <EditText
+                    android:id="@+id/idE21ReadActivity_etOrdedCount"
+                    style="@style/AppClickableHightStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:background="#DCFEFF"
+                    android:digits="0123456789"
+                    android:ems="3"
+                    android:hint="@string/decimalism"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/idE21ReadActivity_btnRead"
+                    style="@style/AppClickableHightStyle"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/w_r_ibuttonicon"
+                    android:text="@string/Read"
+                    android:textColor="#E3F2FD"/>
+
+                <Button
+                    android:id="@+id/btn_gainepc"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/w_r_ibuttonicon"
+                    android:text="上传"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/layout/activity21readactivity.xml -->

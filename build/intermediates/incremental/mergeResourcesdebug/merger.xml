@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="23.3.0"><source path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\res"/></dataSet><dataSet config="main"><source path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res"><file name="fade_in" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\anim\fade_in.xml" qualifiers="" type="anim"/><file name="fade_out" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\anim\fade_out.xml" qualifiers="" type="anim"/><file name="in_from_left" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\anim\in_from_left.xml" qualifiers="" type="anim"/><file name="in_from_right" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\anim\in_from_right.xml" qualifiers="" type="anim"/><file name="out_from_left" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\anim\out_from_left.xml" qualifiers="" type="anim"/><file name="out_from_right" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\anim\out_from_right.xml" qualifiers="" type="anim"/><file name="abc_ab_bottom_solid_dark_holo" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\abc_ab_bottom_solid_dark_holo.xml" qualifiers="" type="drawable"/><file name="about" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\about.png" qualifiers="" type="drawable"/><file name="addmessages" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\addmessages.png" qualifiers="" type="drawable"/><file name="appreader" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\appreader.png" qualifiers="" type="drawable"/><file name="back" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\back.png" qualifiers="" type="drawable"/><file name="background_border" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\background_border.xml" qualifiers="" type="drawable"/><file name="background_homepage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\background_homepage.xml" qualifiers="" type="drawable"/><file name="background_login" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\background_login.xml" qualifiers="" type="drawable"/><file name="background_tag" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\background_tag.xml" qualifiers="" type="drawable"/><file name="btn_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\btn_bg.xml" qualifiers="" type="drawable"/><file name="btn_exit_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\btn_exit_bg.png" qualifiers="" type="drawable"/><file name="button_common" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\button_common.xml" qualifiers="" type="drawable"/><file name="button_icon" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\button_icon.xml" qualifiers="" type="drawable"/><file name="button_normal" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\button_normal.xml" qualifiers="" type="drawable"/><file name="button_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\button_press.xml" qualifiers="" type="drawable"/><file name="clear" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\clear.png" qualifiers="" type="drawable"/><file name="cloud_download" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\cloud_download.png" qualifiers="" type="drawable"/><file name="cloud_download_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\cloud_download_press.png" qualifiers="" type="drawable"/><file name="dialog_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\dialog_bg.xml" qualifiers="" type="drawable"/><file name="edittext_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\edittext_bg.xml" qualifiers="" type="drawable"/><file name="edittext_focuse" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\edittext_focuse.xml" qualifiers="" type="drawable"/><file name="edittext_unfocuse" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\edittext_unfocuse.xml" qualifiers="" type="drawable"/><file name="equipment" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\equipment.png" qualifiers="" type="drawable"/><file name="founction_icon" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\founction_icon.png" qualifiers="" type="drawable"/><file name="founction_icon_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\founction_icon_press.png" qualifiers="" type="drawable"/><file name="frame_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\frame_bg.png" qualifiers="" type="drawable"/><file name="getmessage_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\getmessage_bg.xml" qualifiers="" type="drawable"/><file name="gps_point" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\gps_point.png" qualifiers="" type="drawable"/><file name="homepage_1" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_1.png" qualifiers="" type="drawable"/><file name="homepage_2" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_2.png" qualifiers="" type="drawable"/><file name="homepage_3" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_3.png" qualifiers="" type="drawable"/><file name="homepage_4" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_4.png" qualifiers="" type="drawable"/><file name="homepage_5" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_5.png" qualifiers="" type="drawable"/><file name="homepage_6" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_6.png" qualifiers="" type="drawable"/><file name="homepage_7" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\homepage_7.png" qualifiers="" type="drawable"/><file name="home_icon" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\home_icon.png" qualifiers="" type="drawable"/><file name="home_icon_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\home_icon_press.png" qualifiers="" type="drawable"/><file name="huanyingjiemian" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\huanyingjiemian.png" qualifiers="" type="drawable"/><file name="icon_config" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_config.png" qualifiers="" type="drawable"/><file name="icon_erase" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_erase.png" qualifiers="" type="drawable"/><file name="icon_find" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_find.png" qualifiers="" type="drawable"/><file name="icon_kill" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_kill.png" qualifiers="" type="drawable"/><file name="icon_lock" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_lock.png" qualifiers="" type="drawable"/><file name="icon_read" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_read.png" qualifiers="" type="drawable"/><file name="icon_unlock" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_unlock.png" qualifiers="" type="drawable"/><file name="icon_wirte" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\icon_wirte.png" qualifiers="" type="drawable"/><file name="image_add" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\image_add.png" qualifiers="" type="drawable"/><file name="inventorys_border" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\inventorys_border.xml" qualifiers="" type="drawable"/><file name="invertory" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\invertory.png" qualifiers="" type="drawable"/><file name="invertory_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\invertory_bg.xml" qualifiers="" type="drawable"/><file name="invertory_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\invertory_press.png" qualifiers="" type="drawable"/><file name="joinin_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\joinin_bg.xml" qualifiers="" type="drawable"/><file name="layout_normal" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\layout_normal.xml" qualifiers="" type="drawable"/><file name="layout_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\layout_press.xml" qualifiers="" type="drawable"/><file name="lieanerlayout_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\lieanerlayout_bg.xml" qualifiers="" type="drawable"/><file name="location" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\location.png" qualifiers="" type="drawable"/><file name="login" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\login.png" qualifiers="" type="drawable"/><file name="loginbg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\loginbg.png" qualifiers="" type="drawable"/><file name="loginpass" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\loginpass.png" qualifiers="" type="drawable"/><file name="loginuser" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\loginuser.png" qualifiers="" type="drawable"/><file name="logo" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\logo.png" qualifiers="" type="drawable"/><file name="lookpassword" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\lookpassword.png" qualifiers="" type="drawable"/><file name="mainpage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\mainpage.png" qualifiers="" type="drawable"/><file name="mainuser" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\mainuser.png" qualifiers="" type="drawable"/><file name="more" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\more.png" qualifiers="" type="drawable"/><file name="moremessage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\moremessage.png" qualifiers="" type="drawable"/><file name="nextpattern" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\nextpattern.png" qualifiers="" type="drawable"/><file name="otherbtn_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\otherbtn_bg.xml" qualifiers="" type="drawable"/><file name="password" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\password.png" qualifiers="" type="drawable"/><file name="person" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\person.png" qualifiers="" type="drawable"/><file name="product" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\product.png" qualifiers="" type="drawable"/><file name="reade" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\reade.png" qualifiers="" type="drawable"/><file name="read_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\read_press.png" qualifiers="" type="drawable"/><file name="return_icon" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\return_icon.png" qualifiers="" type="drawable"/><file name="rfidicon2" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\rfidicon2.png" qualifiers="" type="drawable"/><file name="seemessage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\seemessage.png" qualifiers="" type="drawable"/><file name="settings" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\settings.png" qualifiers="" type="drawable"/><file name="setting_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\setting_press.png" qualifiers="" type="drawable"/><file name="showmsg_bg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\showmsg_bg.xml" qualifiers="" type="drawable"/><file name="star" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\star.png" qualifiers="" type="drawable"/><file name="storage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\storage.png" qualifiers="" type="drawable"/><file name="titlebar" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\titlebar.xml" qualifiers="" type="drawable"/><file name="useage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\useage.png" qualifiers="" type="drawable"/><file name="userlog" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\userlog.png" qualifiers="" type="drawable"/><file name="userlog3" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\userlog3.png" qualifiers="" type="drawable"/><file name="user_multiple" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\user_multiple.png" qualifiers="" type="drawable"/><file name="versionupdate" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\versionupdate.png" qualifiers="" type="drawable"/><file name="waste" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\waste.png" qualifiers="" type="drawable"/><file name="welcome" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\welcome.png" qualifiers="" type="drawable"/><file name="welcometext" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\welcometext.png" qualifiers="" type="drawable"/><file name="write" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\write.png" qualifiers="" type="drawable"/><file name="writein" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\writein.png" qualifiers="" type="drawable"/><file name="write_press" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\write_press.png" qualifiers="" type="drawable"/><file name="w_r_ibuttonicon" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\drawable\w_r_ibuttonicon.xml" qualifiers="" type="drawable"/><file name="activity1_function_selection_d" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity1_function_selection_d.xml" qualifiers="" type="layout"/><file name="activity20inventory" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity20inventory.xml" qualifiers="" type="layout"/><file name="activity21readactivity" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity21readactivity.xml" qualifiers="" type="layout"/><file name="activity22writeactivity" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity22writeactivity.xml" qualifiers="" type="layout"/><file name="activity27settingsactivityd" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity27settingsactivityd.xml" qualifiers="" type="layout"/><file name="activity_activityocation" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_activityocation.xml" qualifiers="" type="layout"/><file name="activity_get_message" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_get_message.xml" qualifiers="" type="layout"/><file name="activity_home_page" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_home_page.xml" qualifiers="" type="layout"/><file name="activity_login" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main_lockparameterdlg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_main_lockparameterdlg.xml" qualifiers="" type="layout"/><file name="activity_main_lockparameterdlgd" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_main_lockparameterdlgd.xml" qualifiers="" type="layout"/><file name="activity_model_choice" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_model_choice.xml" qualifiers="" type="layout"/><file name="activity_product" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_product.xml" qualifiers="" type="layout"/><file name="activity_setting" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_setting.xml" qualifiers="" type="layout"/><file name="activity_show_message" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_show_message.xml" qualifiers="" type="layout"/><file name="activity_titlebar" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_titlebar.xml" qualifiers="" type="layout"/><file name="activity_useage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_useage.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_welcome.xml" qualifiers="" type="layout"/><file name="boardistview" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\boardistview.xml" qualifiers="" type="layout"/><file name="bottom_layout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\bottom_layout.xml" qualifiers="" type="layout"/><file name="common_dstoptypes" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\common_dstoptypes.xml" qualifiers="" type="layout"/><file name="common_dstoptypes_matchdlg" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\common_dstoptypes_matchdlg.xml" qualifiers="" type="layout"/><file name="common_lv2overlap" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\common_lv2overlap.xml" qualifiers="" type="layout"/><file name="common_lv2overlap_tv2" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\common_lv2overlap_tv2.xml" qualifiers="" type="layout"/><file name="dialoglayout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\dialoglayout.xml" qualifiers="" type="layout"/><file name="e2record_displayer_activity" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\e2record_displayer_activity.xml" qualifiers="" type="layout"/><file name="homeviewlayout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\homeviewlayout.xml" qualifiers="" type="layout"/><file name="item_getmessage" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\item_getmessage.xml" qualifiers="" type="layout"/><file name="layout_forgetpassword" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\layout_forgetpassword.xml" qualifiers="" type="layout"/><file name="main_asksavepath2" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\main_asksavepath2.xml" qualifiers="" type="layout"/><file name="more_pop_layout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\more_pop_layout.xml" qualifiers="" type="layout"/><file name="progressbar" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\progressbar.xml" qualifiers="" type="layout"/><file name="records_list" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\records_list.xml" qualifiers="" type="layout"/><file name="records_list_ele" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\records_list_ele.xml" qualifiers="" type="layout"/><file name="settinglayout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\settinglayout.xml" qualifiers="" type="layout"/><file name="tagsearchdialog" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\tagsearchdialog.xml" qualifiers="" type="layout"/><file name="title_bar" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\title_bar.xml" qualifiers="" type="layout"/><file name="useritem" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\useritem.xml" qualifiers="" type="layout"/><file name="userviewlayout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\userviewlayout.xml" qualifiers="" type="layout"/><file name="viewpagerlayout" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\viewpagerlayout.xml" qualifiers="" type="layout"/><file name="productitem" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout-land\productitem.xml" qualifiers="land" type="layout"/><file name="records_list" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout-land\records_list.xml" qualifiers="land" type="layout"/><file name="tag_inventoried" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\raw\tag_inventoried.mp3" qualifiers="" type="raw"/><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="CustomTitleBar">
+        <attr format="color" name="title_background"/>
+        <attr format="reference|integer" name="left_button_image"/>
+        <attr format="string" name="left_button_text"/>
+        <attr format="color" name="left_button_textColor"/>
+        <attr format="dimension" name="left_button_textSize"/>
+        <attr format="boolean" name="show_left_button"/>
+        <attr format="string" name="title_text"/>
+        <attr format="color" name="title_textColor"/>
+        <attr format="dimension" name="title_textSize"/>
+    </declare-styleable><declare-styleable name="NumberProgressBar">
+        <attr format="integer" name="progress_current"/>
+        <attr format="integer" name="progress_max"/>
+
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+
+        <attr format="dimension" name="progress_text_offset"/>
+
+        <attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="Themes">
+        <attr format="reference" name="numberProgressBarStyle"/>
+    </declare-styleable></file><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values\color.xml" qualifiers=""><color name="lightsalmon">#FFA07A</color><color name="md_blue_800">#1565C0</color><color name="md_light_blue_600">#039BE5</color><color name="md_light_blue_A200">#40C4FF</color><color name="darkcyan">#008B8B</color><color name="md_blue_400">#42A5F5</color><color name="md_light_blue_200">#81D4fA</color><color name="olivedrab">#6B8E23</color><color name="lightcyan">#E0FFFF</color><color name="maroon">#800000</color><color name="mediumspringgreen">#00FA9A</color><color name="royalblue">#4169E1</color><color name="darkmagenta">#8B008B</color><color name="darkgreen">#006400</color><color name="mintcream">#F5FFFA</color><color name="seagreen">#2E8B57</color><color name="peru">#CD853F</color><color name="slategrey">#708090</color><color name="floralwhite">#FFFAF0</color><color name="dimgray">#696969</color><color name="beige">#F5F5DC</color><color name="orchid">#DA70D6</color><color name="lavenderblush">#FFF0F5</color><color name="bisque">#FFE4C4</color><color name="goldenrod">#DAA520</color><color name="palegreen">#98FB98</color><color name="mediumturquoise">#48D1CC</color><color name="green">#008000</color><color name="darkslategray">#2F4F4F</color><color name="lime">#00FF00</color><color name="md_blue_A700">#2962FF</color><color name="chocolate">#D2691E</color><color name="darkslateblue">#483D8B</color><color name="oldlace">#FDF5E6</color><color name="ghostwhite">#F8F8FF</color><color name="purple">#800080</color><color name="selected">#fff33fff</color><color name="darkblue">#00008B</color><color name="burlywood">#DEB887</color><color name="white">#FFFFFF</color><color name="grey">#808080</color><color name="md_blue_500">#2196F3</color><color name="palevioletred">#DB7093</color><color name="lightgray">#D3D3D3</color><color name="mediumvioletred">#C71585</color><color name="xdslframebackgroundcolor9">#9000</color><color name="darkgrey">#A9A9A9</color><color name="md_light_blue_700">#0288D1</color><color name="steelblue">#4682B4</color><color name="darkkhaki">#BDB76B</color><color name="md_blue_100">#BBDEFB</color><color name="md_light_blue_A100">#80D8FF</color><color name="rosybrown">#BC8F8F</color><color name="dodgerblue">#1E90FF</color><color name="md_light_blue_300">#4fC3F7</color><color name="lightslategrey">#778899</color><color name="midnightblue">#191970</color><color name="salmon">#FA8072</color><color name="peachpuff">#FFDAB9</color><color name="lightblue">#ADD8E6</color><color name="black">#000000</color><color name="crimson">#DC143C</color><color name="darkorange">#FF8C00</color><color name="gainsboro">#DCDCDC</color><color name="saddlebrown">#8B4513</color><color name="md_blue_900">#0D47A1</color><color name="cadetblue">#5F9EA0</color><color name="tomato">#FF6347</color><color name="darkolivegreen">#556B2F</color><color name="aquamarine">#7FFFD4</color><color name="darkred">#8B0000</color><color name="unfocused">#cccccccc</color><color name="focused">#ffff44ff</color><color name="lightpink">#FFB6C1</color><color name="indianred">#CD5C5C</color><color name="mediumaquamarine">#66CDAA</color><color name="forestgreen">#228B22</color><color name="mediumpurple">#9370DB</color><color name="wheat">#F5DEB3</color><color name="cornflowerblue">#6495ED</color><color name="md_blue_A400">#2979FF</color><color name="darksalmon">#E9967A</color><color name="mediumorchid">#BA55D3</color><color name="cyan">#00FFFF</color><color name="thistle">#D8BFD8</color><color name="ivory">#FFFFF0</color><color name="silver">#C0C0C0</color><color name="md_blue_600">#1E88E5</color><color name="md_light_blue_400">#29B6FC</color><color name="cornsilk">#FFF8DC</color><color name="slategray">#708090</color><color name="lightgoldenrodyellow">#FAFAD2</color><color name="aliceblue">#F0F8FF</color><color name="limegreen">#32CD32</color><color name="md_blue_200">#90CAF9</color><color name="powderblue">#B0E0E6</color><color name="md_light_blue_A400">#00B0FF</color><color name="md_blue_50">#E3F2FD</color><color name="indigo">#4B0082</color><color name="lightsteelblue">#B0C4DE</color><color name="slateblue">#6A5ACD</color><color name="darkgoldenrod">#B8860B</color><color name="md_light_blue_800">#0277BD</color><color name="springgreen">#00FF7F</color><color name="lightyellow">#FFFFE0</color><color name="seashell">#FFF5EE</color><color name="blueviolet">#8A2BE2</color><color name="orangered">#FF4500</color><color name="snow">#FFFAFA</color><color name="brown">#A52A2A</color><color name="whitesmoke">#F5F5F5</color><color name="honeydew">#F0FFF0</color><color name="dimgrey">#696969</color><color name="pink">#FFC0CB</color><color name="firebrick">#B22222</color><color name="lightseagreen">#20B2AA</color><color name="antiquewhite">#FAEBD7</color><color name="colorTitle">#006EAA</color><color name="pressed">#fff22fff</color><color name="deepskyblue">#00BFFF</color><color name="coral">#FF7F50</color><color name="teal">#008080</color><color name="blue">#0000FF</color><color name="xdslframebackgroundcolor0">#0000</color><color name="orange">#FFA500</color><color name="gold">#FFD700</color><color name="darkslategrey">#2F4F4F</color><color name="lawngreen">#7CFC00</color><color name="sandybrown">#F4A460</color><color name="gray">#808080</color><color name="moccasin">#FFE4B5</color><color name="lavender">#E6E6FA</color><color name="md_blue_A100">#82B1FF</color><color name="mediumslateblue">#7B68EE</color><color name="md_light_blue_500">#03A9F4</color><color name="md_blue_700">#1976D2</color><color name="md_light_blue_A700">#0091EA</color><color name="magenta">#FF00FF</color><color name="md_light_blue_100">#B3E5FC</color><color name="lightgrey">#D3D3D3</color><color name="darkgray">#A9A9A9</color><color name="darkorchid">#9932CC</color><color name="md_blue_300">#64B5F6</color><color name="hotpink">#FF69B4</color><color name="lightcoral">#F08080</color><color name="md_light_blue_900">#01579B</color><color name="violet">#EE82EE</color><color name="palegoldenrod">#EEE8AA</color><color name="khaki">#F0E68C</color><color name="list_item_focus">#626fcd</color><color name="greenyellow">#ADFF2F</color><color name="darkturquoise">#00CED1</color><color name="papayawhip">#FFEFD5</color><color name="navy">#000080</color><color name="darkviolet">#9400D3</color><color name="lightskyblue">#87CEFA</color><color name="aqua">#00FFFF</color><color name="lightslategray">#778899</color><color name="sienna">#A0522D</color><color name="mistyrose">#FFE4E1</color><color name="lightgreen">#90EE90</color><color name="red">#FF0000</color><color name="blanchedalmond">#FFEBCD</color><color name="md_light_blue_50">#E1F5FE</color><color name="navajowhite">#FFDEAD</color><color name="linen">#FAF0E6</color><color name="yellow">#FFFF00</color><color name="tan">#D2B48C</color><color name="fuchsia">#FF00FF</color><color name="paleturquoise">#AFEEEE</color><color name="azure">#F0FFFF</color><color name="plum">#DDA0DD</color><color name="darkseagreen">#8FBC8F</color><color name="mediumblue">#0000CD</color><color name="deeppink">#FF1493</color><color name="turquoise">#40E0D0</color><color name="mediumseagreen">#3CB371</color><color name="lemonchiffon">#FFFACD</color><color name="chartreuse">#7FFF00</color><color name="olive">#808000</color><color name="md_blue_A200">#448AFF</color><color name="skyblue">#87CEEB</color></file><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="padding_large">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="padding_medium">8dp</dimen><dimen name="padding_small">8dp</dimen></file><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values\strings.xml" qualifiers=""><string name="ChannelBandWidth">SPC:</string><string name="ReadNumber">Length</string><string name="Power">Power：</string><string-array name="E2HopMode">
+        <item>Random hopping</item>
+        <item>Hopping from high to low</item>
+        <item>Hopping from low to high</item>
+    </string-array><string name="Protocol_colon">Protocol：</string><string-array name="strsUnrevertRevert">
+        <item>Unrevert</item>
+        <item>Revert</item>
+    </string-array><string name="Get">Get</string><string name="str6C">6C</string><string name="idStop">Stop</string><string name="idInventoryStopped__PleaseMoveTheTagAndTryAgain">Inventory stopped,please move the tag and try again</string><string name="FrequencySetSuccessful">Frequency set successfully</string><string name="idGetSingulationAlgorithmFail">Get singulation algorithm fail</string><string name="Temporary_colon">Temporary:</string><string name="MakeSurePDAexitRfid">No Rfid UHF communication module, make sure the current PDA memory have this module</string><string name="FrequencyBase">Base:</string><string name="FileName">File Name</string><string name="strQValue">Q value </string><string-array name="SelectRecordTarget">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array><string name="Stop">Stop</string><string name="No">No</string><string name="workMode">Mode:</string><string name="ReadFrequency">Read</string><string name="OK">Confirm</string><string name="SelectOneLabel">Select a tag</string><string name="Cancel">Cancel</string><string name="resolve">解析</string><string name="ItemName">Item Name</string><string name="Data">  Data:</string><string name="strQmin">Qmin(Valid in dynamic Q)</string><string name="idStart">Start</string><string name="idInvalidSingulationAlgorithmFormat">Invalid singulation algorithm format</string><string name="FrequencySetFailure">Frequency set failed</string><string name="idGetSessionSucess">Get session Success</string><string name="successful">Successful</string><string name="FrequencyGetFailure">Get frequency failed, please try again later</string><string name="ScanningLabel">Scanning tag</string><string name="StartFrequency">BF:</string><string name="unPleaseStopInventoryFirst">Please stop inventory first</string><string name="joinin">录入</string><string name="Find">Find</string><string name="promptmessage">提示消息</string><string name="AnyLabel">Any Tag</string><string-array name="strsQ0_Q15">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array><string-array name="interrogatord_lockfields">
+        <item>User bank</item>
+        <item>Tid bank</item>
+        <item>Epc bank</item>
+        <item>Apwd</item>
+        <item>Kpwd</item>
+    </string-array><string name="ModelSelect_ModelDetection">Automatic testing\n(A,B,C,D2,E)</string><string name="code">编号</string><string name="app_name">Rfid UHF Demo</string><string name="str6B">6B</string><string name="WriteData">Data</string><string name="idSetSessionFail">Set Session Fail</string><string name="RecordCheck">Record check</string><string name="DontOpr">Non-professionals do not operate</string><string name="InError">Internal error</string><string-array name="E2DestOpTypes">
+        <item>Pointed label</item>
+        <item>Any label</item>
+        <item>Match label</item>
+    </string-array><string name="Label">Tag:</string><string name="get">get</string><string name="SetFrequency">Set</string><string name="Locked">Lock</string><string name="idSetSessionSuccess">Set session success</string><string name="idRequestLock">RequestLock</string><string name="ChannelNumber">CN:</string><string name="WriteWordNumber">Write length:</string><string name="InputCorrectReadAddr">Please input correct read address</string><string name="UnLock">Unlock</string><string name="CheckRecord">Check record</string><string name="name">姓名</string><string name="idConfigureActivity_title">Configure</string><string name="idGetSingulationAlgorithmSuccess">Get singulation algorithm success</string><string name="idInventoryFinished_Colon">Inventory finished:</string><string name="SaveSuccessful">Save successfully</string><string name="DestructOrder">KPWD</string><string name="idKillActivity_title">Kill</string><string name="idReadActivity_title">Read</string><string-array name="strsEnableAndDisenable">
+        <item>Enable</item>
+        <item>Disnable</item>
+    </string-array><string name="idSetSingulationAlgorithmFail">Set singulation algorithm fail</string><string name="strRunTillNon">Run till non(Valid in fixed Q)</string><string name="Hint_16_Addr">Address start with hexadecimal value</string><string name="InputPrompt">Input data should be integer times of double-bytes</string><string name="CurrentModuleNotSupportWrite">Current module doesn\'t support block write</string><string name="EraDataSuccessful">Erase successfully:</string><string name="AllUnLock">Unlock completely</string><string name="decimalism">Decima</string><string name="Jinzhi_16_band">Hex</string><string name="idSetQ">Set Q value</string><string name="ChannelNumberOutModuleSupport">Channel number is out of module support</string><string name="MastLength_Insufficient">Input mask length is insufficient</string><string name="SetQ">Set Q</string><string name="Length">Length:</string><string name="jobid">岗位</string><string name="strAlgorithmSettings">Algorithm settings</string><string name="InputStartAddr">Input start address</string><string name="strKpwd">KPWD</string><string name="Login">请输入帐号</string><string name="EmptyData">Clean data</string><string name="InputCorrectErasNumber">Please input correct erase number</string><string name="ModelSelect_ModelA">Module A</string><string name="ModelSelect_ModelB">Module B</string><string name="ModelSelect_ModelC">Module C</string><string name="ModelSelect_ModelE">Module E</string><string name="JsonToMsg">解析</string><string name="ModelSelect_ModelF">Module F</string><string name="CurrentModuleOnlySupportTheAssignLabelErasure">This module only supports to erase the specified label</string><string name="strWait4Close"> waiting for close...</string><string name="CurrentModuleOnlySupportSingleWordWrite">This module only supports single number mode input</string><string name="EraseData">Erase</string><string name="idWriteActivity_title">Write</string><string name="ChannelNumberCannotZero">Channel number can not be zero</string><string name="strQmax">Qmax(Valid in dynamic Q)</string><string name="ModelSelect_ModelD2">Module D2</string><string-array name="SelectRecordIndexes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array><string name="idLockActivity_title">Lock</string><string name="strApwd">APWD</string><string-array name="SelectRecordAction">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array><string name="login">登录</string><string name="CurrentModuleOnlySupportTheAssignLabelOpr">This module only supports operation to the specified label</string><string name="LockFailure">Lock failed</string><string name="ModelSelect_ChooseTheModuleTypeOfUhf">Choose the module type of UHF</string><string name="idGetPowerSuccess">Get power success</string><string name="about_msg">UHF Rfid Demo v1.1</string><string name="SingleLableOne">Single Tag Once</string><string name="Recognition">Inventory</string><string-array name="banksStrings">
+        <item>Reserved</item>
+        <item>Epc</item>
+        <item>Tid</item>
+        <item>User</item>
+    </string-array><string name="Frequency">Frequency:</string><string name="idSessionSelection">Session selection</string><string name="AnyMatch">Any match</string><string name="ChannelBandWidthCannotGreaterThan1000">channel bandwidth can not exceed 1000KHz</string><string name="idSetPowerFail">Set power fail</string><string name="SetMatch">Set Match</string><string name="UnLockFailure">Unlock failed</string><string name="InputCorrectReadLength">Please input correct read length</string><string name="strAlgorithmSelection">Algorithm selection</string><string-array name="E2PureNum1_16">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array><string name="broadbandCannotGreaterThan32Mhz">When the base frequency is 50Khz, the bandwidth can not be greater than 32Mhz</string><string name="set">set</string><string name="SingleLableCucle">Single Tag Cycle</string><string name="message">消息提示</string><string name="DestructFailure">Kill failed</string><string name="CurrentModulePowerRange">Current module power range [10,30]</string><string name="cb_rememverpwd">记住密码</string><string name="WriteFailure">Write data failed</string><string name="FMAXCannotPass960Mhz">Should not exceed the maximum frequency 960MHz</string><string name="FrequencyRange">Range:</string><string name="forget">忘记密码？</string><string name="strThreshold">Threshold(Valid in dynamic Q)</string><string name="idRecordsList_SpinnerPrompt">Save setting</string><string name="PrefixAndFileNameCannotEmpty">Prefix and file Name can not be empty</string><string name="AvoidCollisionCycle">Anti-collision cycle</string><string name="EraseNumber">Length</string><string name="idGetSessionFail">Get Session Fail</string><string name="Set">Set</string><string name="jobnumber">工号</string><string name="WithoutDataToSave">No date to save</string><string name="idPleaseEnterTheCorrectPowerValue_3_32">Please enter the correct power value[3,32]</string><string-array name="Sessions_S0S1S2S3">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array><string name="MsgToJson">添加</string><string name="Back">Back</string><string name="SetFailure">Set unsuccessfully</string><string name="AssignedReadNumGreaterThanZero">Current pointed number of reads must be greater than Zero</string><string name="Hint_10_Mask_length">Decimal mask length</string><string name="idTagsCount_Colon">Tags Count:</string><string name="idInvalidPowerFormat">Power value format error</string><string name="Write">Write</string><string name="idInventoryFinished">Inventory finished</string><string name="Session">Session</string><string name="startAddr">Index</string><string name="forgetpass">联系我们</string><string name="date">日期</string><string name="idSetPowerSuccess">Set power success</string><string name="Hint_16_Mask">Hexadecimal mask</string><string name="Read">Read</string><string-array name="lockPayloadValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array><string-array name="strsS0S1S2S3">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array><string name="strRevert">Revert</string><string name="ReadDataFailure">Read data unsuccessfully</string><string name="JumpLvMode">Hop mode：</string><string-array name="strsAlgorithmStaticDynamic">
+        <item>Fixed Q</item>
+        <item>Dynamic Q</item>
+    </string-array><string name="machine">仪器</string><string name="InputCorrectLabel">Please point a correct label UII to operation</string><string name="Erase">Erase</string><string name="SpecifyLabel">Pointed tag</string><string name="username">请输入帐号</string><string name="yes">确定</string><string name="idUnlockDataActivity_title">UnLock</string><string name="idSetSingulationAlgorithmSuccess">Set singulation algorithm success</string><string name="ModelSelect_RememberChoice">Remember the option</string><string name="MastInput_Prompt">Input mask as integer number bytes</string><string name="SaveFailure">Save unsuccessfully</string><string-array name="E2FrequencyMode">
+        <item>Chinese Standard 920-925Mhz</item>
+        <item>Chinese Standard 840-845Mhz</item>
+        <item>ETSI</item>
+        <item>Fixed frequency 915Mhz</item>
+        <item>Customized mode</item>
+    </string-array><string name="SetOk">Set successfully</string><string name="Destruct">Kill</string><string name="broadbandCannotGreaterThan12Mhz">When the base frequency is 50Khz, the bandwidth can not be greater than 12Mhz</string><string name="strRetryTimes">Retry Times</string><string name="ChannelNumberIllegal">Channel number is out of module support</string><string name="Yes">Yes</string><string name="InputValueAndUnit">Please input power value in dbm</string><string name="password">请输入密码</string><string name="EraDataFailure">Erase failed:</string><string name="idGetPowerFail">Get power fail</string><string name="SaveRecord">Save record</string><string-array name="mainOptionTypes">
+        <item>Single tag</item>
+        <item>Single tag cyclic</item>
+        <item>Anti-collision cyclic</item>
+    </string-array><string name="取消">No</string><string name="Inventory">Inventory</string><string name="RecordFind">Record find</string><string-array name="idArray1To8">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array><string-array name="mainOperations">
+        <item>Identification</item>
+        <item>Power reading and setting</item>
+        <item> Frequency reading</item>
+        <item>Read</item>
+        <item>Write</item>
+        <item>Match</item>
+        <item>Erase</item>
+        <item>Lock</item>
+        <item>Destruct</item>
+    </string-array><string name="AreYouSave">Save the record?</string></file><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values\styles.xml" qualifiers=""><style name="NumberProgressBar_Beauty_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#FF3D7F</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#FF3D7F</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Relax_Blue">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#6DBCDB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#6DBCDB</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Grace_Yellow">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#FFC73B</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#FFC73B</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="AnimActivityTheme">
+        <item name="android:windowAnimationStyle">@style/FeelyouWindowAnimTheme</item>
+    </style><style name="FeelyouWindowAnimTheme" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_from_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_left</item>
+    </style><style name="NumberProgressBar_Passing_Green">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#70A800</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#70A800</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style><style name="AppTheme" parent="android:Theme.Light"/><style name="NumberProgressBar_Warning_Red">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#E74C3C</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#E74C3C</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#3498DB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#3498DB</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>    <!--是否浮在界面上-->
+        <item name="android:windowIsTranslucent">true</item> <!--是否半透明-->
+        <item name="android:windowNoTitle">false</item>       <!--是否有标题-->
+        <item name="android:windowBackground">@android:color/transparent</item> <!--窗口背景色透明-->
+        <item name="android:backgroundDimEnabled">false</item> <!--背景是否模糊显示-->
+    </style><style name="NumberProgressBar_Funny_Orange">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#FF530D</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#FF530D</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style><style name="AppClickableHightStyle">
+        <item name="android:layout_height">52dp</item>
+    </style><style name="NumberProgressBar_Twinkle_Night">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#ECF0F1</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#ECF0F1</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style></file><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file><file path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\values-zh-rCN\strings.xml" qualifiers="zh-rCN"><string name="strRunTillNon">重复直至无标签(静态有效)</string><string name="EraDataFailure">擦除数据失败</string><string name="ChannelNumber">频道数：</string><string name="Hint_16_Addr">16进制开始位地址</string><string name="idInvalidPowerFormat">功率值格式错误</string><string-array name="strsAlgorithmStaticDynamic">
+        <item>固定算法</item>
+        <item>动态算法</item>
+    </string-array><string name="CheckRecord">查看记录</string><string name="DestructFailure">销毁失败</string><string name="AvoidCollisionCycle">防碰撞循环</string><string name="idSetSessionFail">设置Session失败</string><string name="Length">长度:</string><string name="idSetSingulationAlgorithmSuccess">设置单化算法成功</string><string name="Write">写入</string><string name="idGetSingulationAlgorithmFail">获取单化算法失败</string><string name="Session">会话</string><string name="InputPrompt">输入的数据应为双字节的整数倍</string><string name="idGetSessionFail">获取Session失败</string><string name="Hint_16_Mask">16进制掩码</string><string-array name="mainOptionTypes">
+        <item>单次扫描</item>
+        <item>单标签循环扫描</item>
+        <item>防碰撞循环扫描</item>
+    </string-array><string name="SetFrequency">设置频率</string><string name="idPleaseEnterTheCorrectPowerValue_3_32">请输入正确的功率值[3,32]</string><string name="idGetPowerSuccess">获取功率成功</string><string name="Yes">是</string><string name="strKpwd">灭活口令</string><string name="DestructOrder">销毁口令</string><string name="successful">成功</string><string-array name="E2FrequencyMode">
+        <item>中国标准920-925Mhz</item>
+        <item>中国标准840-845Mhz</item>
+        <item>ETSI</item>
+        <item>定频915Mhz</item>
+        <item>自定义模式</item>
+    </string-array><string name="Hint_10_Mask_length">10进制掩码长度</string><string name="SetQ">设置Q值</string><string name="broadbandCannotGreaterThan12Mhz">基频为50Khz时，带宽不能大于12Mhz</string><string name="SaveRecord">保存记录</string><string name="idReadActivity_title">读取数据</string><string name="WithoutDataToSave">当前没有数据可以保存</string><string name="InputCorrectReadAddr">请输入正确的读取地址</string><string name="idGetPowerFail">功率获取失败</string><string name="Inventory">盘点</string><string name="idStart">开始</string><string name="InputValueAndUnit">请输入功率值，单位dbm</string><string name="OK">确定</string><string name="FrequencyRange">频率范围:</string><string name="No">否</string><string name="broadbandCannotGreaterThan32Mhz">基频为50Khz时，带宽不能大于32Mhz</string><string name="AreYouSave">要将内容保存为记录吗？</string><string name="ModelSelect_ChooseTheModuleTypeOfUhf">选择机内超高频模块型号</string><string name="PrefixAndFileNameCannotEmpty">前缀和文件名不能为空</string><string name="idKillActivity_title">销毁标签</string><string name="ChannelBandWidthCannotGreaterThan1000">信道带宽不能大于1000KHz</string><string name="WriteWordNumber">写入字数:</string><string name="strRetryTimes">重试次数</string><string-array name="interrogatord_lockfields">
+        <item>User bank</item>
+        <item>Tid bank</item>
+        <item>Epc bank</item>
+        <item>Apwd</item>
+        <item>Kpwd</item>
+    </string-array><string name="strQmin">最小Q值(动态有效)</string><string name="SetOk">设置成功</string><string name="InputCorrectLabel">请指定一个正确的标签UII，以便进行操作</string><string name="strAlgorithmSelection">算法选择</string><string name="EraseData">擦除数据</string><string name="strApwd">访问口令</string><string-array name="banksStrings">
+        <item>Reserved</item>
+        <item>Epc</item>
+        <item>Tid</item>
+        <item>User</item>
+
+    </string-array><string name="idSetPowerFail">设置功率失败</string><string name="FMAXCannotPass960Mhz">最大频率不应超过960MHz</string><string name="Erase">擦除</string><string name="SetMatch">设定匹配</string><string-array name="SelectRecordAction">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array><string name="idInvalidSingulationAlgorithmFormat">单化算法数据格式错误</string><string name="ReadDataFailure">读取数据失败</string><string name="ModelSelect_ModelC">模块C</string><string name="ModelSelect_ModelB">模块B</string><string-array name="SelectRecordIndexes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array><string name="ModelSelect_ModelE">模块E</string><string-array name="strsUnrevertRevert">
+        <item>不翻转</item>
+        <item>翻转</item>
+    </string-array><string name="strThreshold">阀值(动态有效)</string><string name="idUnlockDataActivity_title">解锁数据</string><string name="JumpLvMode">跳率方式：</string><string-array name="Sessions_S0S1S2S3">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array><string name="ModelSelect_ModelF">模块F</string><string-array name="E2HopMode">
+        <item>随机跳频</item>
+        <item>从高往低顺序跳频</item>
+        <item>从低往高顺序跳频</item>
+    </string-array><string-array name="E2PureNum1_16">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array><string name="MastInput_Prompt">请将mask输入为整数个字节</string><string name="Cancel">取消</string><string name="ReadFrequency">读取频率</string><string name="idStop">停止</string><string name="ScanningLabel">正在扫描标签</string><string name="ModelSelect_ModelA">模块A</string><string-array name="strsQ0_Q15">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array><string name="Protocol_colon">协议：</string><string name="AllUnLock">完全解锁</string><string-array name="E2DestOpTypes">
+        <item>指定标签</item>
+        <item>任一标签</item>
+        <item>匹配标签</item>
+    </string-array><string name="Stop">停止</string><string name="StartFrequency">起始频率：</string><string name="SaveFailure">文件保存失败</string><string name="Set">设置</string><string name="MakeSurePDAexitRfid">没有找到Rfid超高频通信模块，请确定当前PDA内存在该模块</string><string name="idSetQ">设置防碰撞盘点Q值</string><string name="idConfigureActivity_title">配置</string><string name="about_msg">超高频读写 v1.1</string><string name="strQValue">Q值</string><string-array name="mainOperations">
+        <item>识别</item>
+        <item>功率的读取和设置</item>
+        <item>频率的读取</item>
+        <item>读取</item>
+        <item>写入</item>
+        <item>匹配</item>
+        <item>擦除</item>
+        <item>锁定</item>
+        <item>销毁</item>
+    </string-array><string name="Get">获取</string><string name="Power">功率：</string><string name="idWriteActivity_title">写入数据</string><string name="SaveSuccessful">文件保存成功</string><string name="DontOpr">非专业人员请勿操作</string><string name="Back">返回</string><string name="str6B">6B</string><string name="UnLockFailure">解锁失败</string><string name="str6C">6C</string><string name="InputCorrectReadLength">请输入正确的读取长度</string><string name="Locked">锁定</string><string name="FrequencyBase">频率基数：</string><string name="idLockActivity_title">锁定数据</string><string name="idGetSingulationAlgorithmSuccess">获取单化算法成功</string><string name="ChannelNumberOutModuleSupport">频道数超出模块支持</string><string name="CurrentModuleOnlySupportTheAssignLabelErasure">当前模块只支持对指定的标签进行擦除</string><string name="decimalism">十进制</string><string name="FileName">文件名</string><string name="ModelSelect_RememberChoice">记住选择</string><string name="Find">查找</string><string name="ModelSelect_ModelD2">模块D2</string><string name="ChannelNumberIllegal">频道数不合法，已置成默认值"</string><string name="InputCorrectErasNumber">请输入正确的擦除字数</string><string name="EmptyData">清空数据</string><string-array name="SelectRecordTarget">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array><string-array name="strsEnableAndDisenable">
+        <item>启用</item>
+        <item>禁用</item>
+    </string-array><string name="InputStartAddr">请输入起始位地址</string><string name="WriteFailure">写入数据失败</string><string name="FrequencySetSuccessful">频率设置成功</string><string name="strQmax">最大Q值(动态有效)</string><string name="Label">标签:</string><string name="Destruct">销毁</string><string name="UnLock">解锁</string><string name="ChannelNumberCannotZero">频道数不能为零</string><string name="Temporary_colon">温度:</string><string name="RecordFind">记录查找</string><string name="idSessionSelection">会话选择</string><string name="idInventoryStopped__PleaseMoveTheTagAndTryAgain">盘点停止，请移动标签后重试</string><string name="EraDataSuccessful">成功擦除:</string><string name="Recognition">识别</string><string name="EraseNumber">擦除字数</string><string name="CurrentModuleOnlySupportSingleWordWrite">当前模块只支持单字模式写入</string><string-array name="strsS0S1S2S3">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array><string-array name="idArray1To8">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array><string name="CurrentModuleNotSupportWrite">当前模块不支持块写入</string><string name="Read">读取</string><string name="idSetSingulationAlgorithmFail">设置单化算法失败</string><string name="AssignedReadNumGreaterThanZero">当前指定的读取数量必须大于0</string><string name="idSetSessionSuccess">设置Session成功</string><string name="startAddr">起始地址</string><string-array name="lockPayloadValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array><string name="strAlgorithmSettings">算法设置</string><string name="AnyMatch">任一匹配</string><string name="MastLength_Insufficient">输入掩码的长度不足</string><string name="Data">  数据:</string><string name="strWait4Close">正在停止，请稍后……</string><string name="idInventoryFinished">盘点结束</string><string name="set">设置</string><string name="SingleLableCucle">单标签循环</string><string name="workMode">工作模式:</string><string name="CurrentModulePowerRange">当前模块功率范围为[10,30]</string><string name="FrequencyGetFailure">频率获取失败，请稍后重试</string><string name="CurrentModuleOnlySupportTheAssignLabelOpr">当前模块只能对指定标签操作</string><string name="strRevert">翻转</string><string name="ChannelBandWidth">频道带宽：</string><string name="ModelSelect_ModelDetection">自动检测\n(A,B,C,D2,E)</string><string name="Frequency">频率：</string><string name="InError">内部错误</string><string name="WriteData">写入数据</string><string name="Jinzhi_16_band">十六进制</string><string name="idRequestLock">锁定查询</string><string name="idRecordsList_SpinnerPrompt">存放位置</string><string name="get">获取</string><string name="app_name">超高频读写</string><string name="SetFailure">设置失败</string><string name="ItemName">项名</string><string name="idSetPowerSuccess">设置功率成功</string><string name="SpecifyLabel">指定标签</string><string name="idTagsCount_Colon">标签总数:</string><string name="LockFailure">锁定失败</string><string name="RecordCheck">记录查看</string><string name="AnyLabel">任一标签</string><string name="idGetSessionSucess">获取Session成功</string><string name="SelectOneLabel">选择一个标签</string><string name="unPleaseStopInventoryFirst">请先停止盘点</string><string name="idInventoryFinished_Colon">盘点结束：</string><string name="SingleLableOne">单标签单次</string><string name="ReadNumber">读取数量</string><string name="FrequencySetFailure">频率设置失败</string></file><file name="activity_come" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_come.xml" qualifiers="" type="layout"/><file name="activity_equip" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_equip.xml" qualifiers="" type="layout"/><file name="activity_notice" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_notice.xml" qualifiers="" type="layout"/><file name="activity_in" path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\main\res\layout\activity_in.xml" qualifiers="" type="layout"/></source><source path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\generated\res\rs\debug"/><source path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CustomTitleBar"><attr format="color" name="title_background"/><attr format="reference|integer" name="left_button_image"/><attr format="string" name="left_button_text"/><attr format="color" name="left_button_textColor"/><attr format="dimension" name="left_button_textSize"/><attr format="boolean" name="show_left_button"/><attr format="string" name="title_text"/><attr format="color" name="title_textColor"/><attr format="dimension" name="title_textSize"/></declare-styleable><declare-styleable name="NumberProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr></declare-styleable><declare-styleable name="Themes"><attr format="reference" name="numberProgressBarStyle"/></declare-styleable></configuration></mergedItems></merger>

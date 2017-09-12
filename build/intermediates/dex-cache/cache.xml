@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\Amap_2DMap_V5.2.0_20170627.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="15d491b0412f57284157d356bfcb9d6ea017226f">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\Amap_2DMap_V5.2.0_20170627-51e19f181b9ab69cb7029238c684c26b3d8ea4c0.jar" />
+    </item>
+    <item
+        jar="D:\SDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\support-annotations-23.3.0-9e78d40d157f34b8dbf346345a1d6a8544ee87ae.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\okhttp-2.7.5.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\okhttp-2.7.5-2a9cef5a3164b769c2e28f24df37a7f97e11a93a.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\internal_impl-23.3.0-897ebc0694a80182d76fec79b54c76f1a368daca.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\SenterOpenApi_1.2.3.68_Common.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="44e2571a73fd80eb49cbe2e00d0f27f160a0f468">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\SenterOpenApi_1.2.3.68_Common-b04aea23098a566944ee9c4dcff997a3dfdefce1.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\AMap_Location_V3.5.0_20170731.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="a02816310bcf897ef35496950110a65b495574a7">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\AMap_Location_V3.5.0_20170731-a9669d9cec8ab6f95f2d4d57ce2ff2fab9bceab5.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\jdom.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="1d04c0f321ea337f3661cf7ede8f4c6f653a8fdd">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\jdom-1ade086f58b9fea708fe7a1fdfef04e26c25f0d4.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\okio-1.11.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\okio-1.11.0-a672bde51d280d1879173d9dd1ac950fb4dee036.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\Volley.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\Volley-8f3d153f6f3c29f1fba3fec607fcc0f406e1e333.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\classes-8f655d79533225df5aea8a96136a1400124111bc.jar" />
+    </item>
+    <item
+        jar="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\libs\SenterOpenApi_1.2.3.68_IoT.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d173efe5a5c9d98ff9eda42997dade1b6d28b717">
+        <dex dex="E:\Demon for viode\viode-uhfrhid-master\uhfrhid\build\intermediates\pre-dexed\debug\SenterOpenApi_1.2.3.68_IoT-dbf8cd680cc5941cf31b807edfd8f965ff2baf8d.jar" />
+    </item>
+
+</items>

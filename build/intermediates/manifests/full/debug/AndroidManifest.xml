@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.senter.demo.uhf"
+    android:versionCode="8"
+    android:versionName="1.8.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 用于写入缓存数据到扩展存储卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name="com.senter.demo.uhf.util.App"
+        android:icon="@drawable/appreader"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="75ce5282eb19a981e2daf0a9ed0e2ee5" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity android:name="com.senter.demo.uhf.commonActivity.ForgetPasswordActivity" />
+
+        <!-- ===================== -->
+        <!-- main activity -->
+        <!-- ========= android:screenOrientation="portrait" ============ -->
+        <activity
+            android:name="com.senter.demo.uhf.commonActivity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- ===================== -->
+        <!-- activities for model D2 -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity_FunctionSelection"
+            android:label="Model D2"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity0Inventory"
+            android:label="@string/Recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity1Read"
+            android:label="@string/idReadActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity2Write"
+            android:label="@string/idWriteActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.senter.demo.uhf.modelD2.Activity5Settings"
+            android:label="@string/idConfigureActivity_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- ===================== -->
+        <!-- Common ui -->
+        <!-- ===================== -->
+        <activity
+            android:name="com.senter.demo.uhf.record.ActivityRecordsList"
+            android:label="@string/RecordFind"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.senter.demo.uhf.record.ActivityRecordDisplayer"
+            android:label="@string/RecordCheck"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.senter.demo.uhf.commonActivity.UseageActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.senter.demo.uhf.commonActivity.LoginActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.ShowMessageActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.GetMessageActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.ViewPagerActivity" />
+        <activity android:name="com.senter.demo.uhf.modelD2.SettingActivity" />
+        <activity
+            android:name="com.senter.demo.uhf.commonActivity.ProductActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.Activityocation" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.ModelChoiceActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.HomePageActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.NoticeActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.EquipActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.ComeActivity" />
+        <activity android:name="com.senter.demo.uhf.commonActivity.InActivity" />
+    </application>
+
+</manifest>

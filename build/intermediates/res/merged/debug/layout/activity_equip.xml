@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.senter.demo.uhf.View.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:show_left_button="false"
+        app:title_text="工器具使用"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/background_tag"
+        android:text="出库使用"
+        android:onClick="outuse"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_tag"
+        android:text="归还入库"
+        android:onClick="inuse"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_tag"
+        android:text="我的工具"
+        android:onClick="mytools"
+        android:textSize="20sp"/>
+
+</LinearLayout><!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/layout/activity_equip.xml -->
