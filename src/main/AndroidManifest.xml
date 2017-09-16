@@ -45,6 +45,10 @@
     <!-- 用于申请获取蓝牙信息进行室内定位 -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:name=".util.App"
@@ -58,6 +62,14 @@
         <service android:name="com.amap.api.location.APSService" />
 
         <activity android:name=".commonActivity.ForgetPasswordActivity" />
+        <activity
+            android:name="com.senter.demo.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
 
         <!-- ===================== -->
         <!-- main activity -->
@@ -134,7 +146,10 @@
         <activity android:name=".commonActivity.NoticeActivity" />
         <activity android:name=".commonActivity.EquipActivity" />
         <activity android:name=".commonActivity.ComeActivity" />
-        <activity android:name=".commonActivity.InActivity"></activity>
+        <activity android:name=".commonActivity.InActivity" />
+        <activity android:name=".commonActivity.PersonalActivity" />
+        <activity android:name=".commonActivity.Account_Acitvity" />
+        <activity android:name=".commonActivity.BarcodeActivity"></activity>
     </application>
 
 </manifest>

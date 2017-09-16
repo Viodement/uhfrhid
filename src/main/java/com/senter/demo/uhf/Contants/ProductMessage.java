@@ -5,16 +5,6 @@ package com.senter.demo.uhf.Contants;
  */
 public class ProductMessage {
     private String productName;
-    private String productStatus;
-    private String productMore;
-
-    public ProductMessage(String productName,String productStatus,String productMore){
-        super();
-        this.productName = productName;
-        this.productStatus = productStatus;
-        this.productMore = productMore;
-    }
-
     public String getProductMore() {
         return productMore;
     }
@@ -38,4 +28,14 @@ public class ProductMessage {
     public void setProductStatus(String productStatus) {
         this.productStatus = productStatus;
     }
+    private String productStatus;
+    private String productMore;
+
+    public ProductMessage(String productName,String productStatus,String productMore){
+        super();
+        this.productName = productName;
+        this.productStatus = productStatus;
+        this.productMore = productMore;
+    }
+
 }

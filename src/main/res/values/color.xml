@@ -27,6 +27,14 @@
     <color name="md_blue_A400">#2979FF</color>
     <color name="md_blue_A700">#2962FF</color>
 
+    <!--scan code -->
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#00000000</color>
+    <color name="cl_80c469">#80c469</color>
+
     <!-- light blue-->
     <color name="md_light_blue_50">#E1F5FE</color>
     <color name="md_light_blue_100">#B3E5FC</color>

@@ -15,6 +15,7 @@ import com.senter.demo.common.misc.ActivityHelper;
 import com.senter.demo.uhf.R;
 import com.senter.demo.uhf.commonActivity.Activityocation;
 import com.senter.demo.uhf.commonActivity.GetMessageActivity;
+import com.senter.demo.uhf.commonActivity.ModelChoiceActivity;
 import com.senter.demo.uhf.commonActivity.ProductActivity;
 import com.senter.demo.uhf.commonActivity.UseageActivity;
 import com.senter.demo.uhf.modelD2.ConfigurationSettingsOfModelD2.Protocol;
@@ -254,23 +255,10 @@ public class Activity_FunctionSelection extends Activity {
      * @param event
      * @return
      */
-//    @Override
-//    public boolean onKeyDown(int keyCode, KeyEvent event) {
-//        if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN) {
-//            if ((System.currentTimeMillis() - exitTime) > 2000) {
-//                Toast.makeText(getApplicationContext(), "再按一次退出程序", Toast.LENGTH_SHORT).show();
-//                exitTime = System.currentTimeMillis();
-//            } else {
-//                Intent backHome = new Intent(Intent.ACTION_MAIN);
-//                backHome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                backHome.addCategory(Intent.CATEGORY_HOME);
-//                startActivity(backHome);
-//            }
-//            return true;
-////           App.uhfUninit();
-////           finish();
-////            android.os.Process.killProcess(android.os.Process.myPid());
-//        }
-//        return super.onKeyDown(keyCode, event);
-//    }
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        Intent backHome = new Intent(Activity_FunctionSelection.this, ModelChoiceActivity.class);
+        startActivity(backHome);
+        return super.onKeyDown(keyCode, event);
+    }
 }

@@ -64,7 +64,9 @@ public class UseageActivity extends Activity {
         usermap.put("job", userJob);
         usermap.put("number", userNumber);
         Data.add(usermap);
+        //封装数据
         String usermessage = gson.toJson(Data);
+        //发起网络请求上传数据
         OkHttpManager.dopostJson(usermessage,UseageActivity.this, Contants.BASE_URL+"");
         //添加数据进表完成后清空EditText
         clearEidtText();

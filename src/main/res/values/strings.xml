@@ -63,6 +63,7 @@
         <item>7</item>
     </string-array>
     <string name="idRecordsList_SpinnerPrompt">Save setting</string>
+    <string name="zxing_bar_name">ZxingLib</string>
     <string-array name="mainOptionTypes">
         <item>Single tag</item>
         <item>Single tag cyclic</item>

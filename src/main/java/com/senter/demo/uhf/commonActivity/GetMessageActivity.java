@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.senter.demo.uhf.Contants.Contants;
 import com.senter.demo.uhf.R;
 import com.senter.demo.uhf.modelD2.Activity2Write;
 import com.senter.demo.uhf.util.LogUtil;
@@ -61,7 +62,7 @@ public class GetMessageActivity extends Activity implements AdapterView.OnItemCl
             public void run() {
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
-                        .url("http://192.168.2.198:8080/api/easy-users")
+                        .url(Contants.BASE_URL+"api/easy-users")
                         .build();
                 try {
                     Response response = client.newCall(request).execute();
@@ -88,7 +89,7 @@ public class GetMessageActivity extends Activity implements AdapterView.OnItemCl
                 }
             }
         }).start();
-        OkHttpManager.getAsync("http://192.168.2.189:8080/api/easy-users", new OkHttpManager.DataCallBack() {
+        OkHttpManager.getAsync(Contants.BASE_URL+"api/easy-users", new OkHttpManager.DataCallBack() {
             @Override
             public void requestFailure(Request request, IOException e) {
                 Log.d("MainActivity", "请求失败");

@@ -7,7 +7,7 @@ public class Contants {
     /**
      * 本机地址
      */
-    public static final String BASE_URL = "http://192.168.1.199:8080/";
+    public static final String BASE_URL = "http://192.168.2.199:8080/";
 
     /**
      * 同步请求

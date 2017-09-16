@@ -340,6 +340,8 @@ public class LoginActivity extends Activity {
                                 });
                             }
                         });
+                        Intent login = new Intent(LoginActivity.this, HomePageActivity.class);
+                        startActivity(login);
                     }
                 });
             }
@@ -389,5 +391,6 @@ public class LoginActivity extends Activity {
         emptyornot();
         Intent login = new Intent(LoginActivity.this,HomePageActivity.class);
         startActivity(login);
+        //initAsyncGet();
     }
 }
