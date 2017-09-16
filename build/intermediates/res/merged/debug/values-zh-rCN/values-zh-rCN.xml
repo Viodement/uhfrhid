@@ -323,6 +323,10 @@
     <string name="strRunTillNon">重复直至无标签(静态有效)</string>
     <string name="strThreshold">阀值(动态有效)</string>
     <string name="strWait4Close">正在停止，请稍后……</string>
+    <string name="str_close_light">关闭闪光灯</string>
+    <string name="str_open_light">开启闪光灯</string>
+    <string name="str_scan_hint">取景框对准二维码, 即可自动扫描</string>
+    <string name="str_scan_title">扫一扫</string>
     <string name="successful">成功</string>
     <string name="unPleaseStopInventoryFirst">请先停止盘点</string>
     <string name="workMode">工作模式:</string>

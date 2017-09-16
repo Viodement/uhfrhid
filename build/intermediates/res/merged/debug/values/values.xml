@@ -177,6 +177,7 @@
     <color name="cadetblue">#5F9EA0</color>
     <color name="chartreuse">#7FFF00</color>
     <color name="chocolate">#D2691E</color>
+    <color name="cl_80c469">#80c469</color>
     <color name="colorTitle">#006EAA</color>
     <color name="coral">#FF7F50</color>
     <color name="cornflowerblue">#6495ED</color>
@@ -309,10 +310,12 @@
     <color name="peru">#CD853F</color>
     <color name="pink">#FFC0CB</color>
     <color name="plum">#DDA0DD</color>
+    <color name="possible_result_points">#00000000</color>
     <color name="powderblue">#B0E0E6</color>
     <color name="pressed">#fff22fff</color>
     <color name="purple">#800080</color>
     <color name="red">#FF0000</color>
+    <color name="result_view">#b0000000</color>
     <color name="rosybrown">#BC8F8F</color>
     <color name="royalblue">#4169E1</color>
     <color name="saddlebrown">#8B4513</color>
@@ -336,6 +339,9 @@
     <color name="tomato">#FF6347</color>
     <color name="turquoise">#40E0D0</color>
     <color name="unfocused">#cccccccc</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
     <color name="violet">#EE82EE</color>
     <color name="wheat">#F5DEB3</color>
     <color name="white">#FFFFFF</color>
@@ -353,6 +359,20 @@
     <dimen name="padding_large">16dp</dimen>
     <dimen name="padding_medium">8dp</dimen>
     <dimen name="padding_small">8dp</dimen>
+    <!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
     <!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="AllUnLock">Unlock completely</string>
@@ -541,6 +561,7 @@
     <string name="username">请输入帐号</string>
     <string name="workMode">Mode:</string>
     <string name="yes">确定</string>
+    <string name="zxing_bar_name">ZxingLib</string>
     <string name="取消">No</string>
     <!-- From: file:/E:/Demon%20for%20viode/viode-uhfrhid-master/uhfrhid/src/main/res/values/styles.xml -->
     <eat-comment/>

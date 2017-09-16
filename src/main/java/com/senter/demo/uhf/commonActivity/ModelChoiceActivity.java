@@ -46,6 +46,10 @@ public class ModelChoiceActivity extends Activity {
         readBarCodeButton = (Button) findViewById(R.id.bt_barcode);
     }
 
+    public void barcode(View view){
+        Intent barcode = new Intent(ModelChoiceActivity.this,BarcodeActivity.class);
+        startActivity(barcode);
+    }
     /**
      * 模式选择
      *

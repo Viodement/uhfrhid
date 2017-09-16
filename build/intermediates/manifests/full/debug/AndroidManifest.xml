@@ -62,6 +62,13 @@
         <service android:name="com.amap.api.location.APSService" />
 
         <activity android:name="com.senter.demo.uhf.commonActivity.ForgetPasswordActivity" />
+        <activity
+            android:name="com.senter.demo.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
 
         <!-- ===================== -->
         <!-- main activity -->

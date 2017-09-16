@@ -81,6 +81,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/mockable-android-16.jar" />
@@ -97,11 +98,13 @@
     <orderEntry type="library" exported="" name="Amap_2DMap_V5.2.0_20170627" level="project" />
     <orderEntry type="library" exported="" name="okhttp-2.7.5" level="project" />
     <orderEntry type="library" exported="" name="Volley" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-23.3.0" level="project" />
     <orderEntry type="library" exported="" name="SenterOpenApi_1.2.3.68_IoT" level="project" />
     <orderEntry type="library" exported="" name="SenterOpenApi_1.2.3.68_Common" level="project" />
     <orderEntry type="library" exported="" name="jdom" level="project" />
     <orderEntry type="library" exported="" name="AMap_Location_V3.5.0_20170731" level="project" />
     <orderEntry type="library" exported="" name="zxing" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-23.3.0" level="project" />
     <orderEntry type="library" exported="" name="okio-1.11.0" level="project" />
     <orderEntry type="library" exported="" name="android-android-16" level="project" />
   </component>

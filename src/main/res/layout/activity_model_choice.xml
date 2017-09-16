@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:show_left_button="false"
-        app:title_text="标签读取"></com.senter.demo.uhf.View.CustomTitleBar>
+        app:title_text="标签读取"/>
 
     <Button
         android:id="@+id/bt_rfid"
@@ -29,6 +29,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/background_tag"
         android:text="识别二维码标签"
+        android:onClick="barcode"
         android:textSize="20sp"/>
 
 </LinearLayout>

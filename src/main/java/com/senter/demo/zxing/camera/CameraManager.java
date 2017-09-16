@@ -24,7 +24,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
-import com.xys.libzxing.zxing.camera.open.OpenCameraInterface;
+import com.senter.demo.zxing.camera.open.OpenCameraInterface;
 
 import java.io.IOException;
 
@@ -74,7 +74,7 @@ public class CameraManager {
             if (requestedCameraId >= 0) {
                 theCamera = OpenCameraInterface.open(requestedCameraId);
             } else {
-                theCamera = OpenCameraInterface.open();
+                theCamera =  OpenCameraInterface.open();
             }
 
             if (theCamera == null) {
