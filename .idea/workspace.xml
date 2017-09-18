@@ -53,104 +53,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fea1bbe-20eb-4ef9-9e27-bd75ad9b898e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/classes/androidTest/debug/com/senter/demo/uhf/test/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/Adapter/ProductAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/Adapter/ProductAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/Adapter/TableAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/Adapter/TableAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/Adapter/UserAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/Adapter/UserAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$color.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$dimen.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$raw.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/CustomTitleBar.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/CustomTitleBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/HomeViewFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/HomeViewFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/ReaderViewFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/ReaderViewFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/SelfDialog.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/SelfDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/SettingViewFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/View/SettingViewFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract$RecodesSaver$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract$RecodesSaver$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract$RecodesSaver.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract$RecodesSaver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract$Views.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract$Views.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity0InventoryCommonAbstract.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity1ReadCommonAbstract.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity1ReadCommonAbstract.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity2WriteCommonAbstract.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activity2WriteCommonAbstract.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activityocation.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/Activityocation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ComeActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ComeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/DestinationTagSpecifics$AdditionalMatchedTag.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/DestinationTagSpecifics$AdditionalMatchedTag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/DestinationTagSpecifics$AdditionalSpecifidTag.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/DestinationTagSpecifics$AdditionalSpecifidTag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/DestinationTagSpecifics.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/DestinationTagSpecifics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/EquipActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/EquipActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ForgetPasswordActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ForgetPasswordActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/GetMessageActivity$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/GetMessageActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/GetMessageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/GetMessageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/HomePageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/HomePageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/InActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/InActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/LoginActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ModelChoiceActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ModelChoiceActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ModelChoiceActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ModelChoiceActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/NoticeActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/NoticeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ProductActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ProductActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/RecordsBoard.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/RecordsBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/SearchDlg.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/SearchDlg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ShowMessageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ShowMessageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/UseageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/UseageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ViewPagerActivity$Views.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ViewPagerActivity$Views.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ViewPagerActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/ViewPagerActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/commonActivity/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/Activity5Settings$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/Activity5Settings$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/Activity5Settings.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/Activity5Settings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/Activity_FunctionSelection$Views.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/Activity_FunctionSelection$Views.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/SettingActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/SettingActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/SettingActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/modelD2/SettingActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/record/ActivityRecordDisplayer.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/record/ActivityRecordDisplayer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/record/ActivityRecordsList.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/record/ActivityRecordsList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/record/RecordsAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/record/RecordsAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/util/MorePopWindow.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/senter/demo/uhf/util/MorePopWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/mockable-android-16.jar" afterPath="$PROJECT_DIR$/build/intermediates/mockable-android-16.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/AMap_Location_V3.5.0_20170731-a9669d9cec8ab6f95f2d4d57ce2ff2fab9bceab5.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/AMap_Location_V3.5.0_20170731-a9669d9cec8ab6f95f2d4d57ce2ff2fab9bceab5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/Amap_2DMap_V5.2.0_20170627-51e19f181b9ab69cb7029238c684c26b3d8ea4c0.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/Amap_2DMap_V5.2.0_20170627-51e19f181b9ab69cb7029238c684c26b3d8ea4c0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/SenterOpenApi_1.2.3.68_Common-b04aea23098a566944ee9c4dcff997a3dfdefce1.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/SenterOpenApi_1.2.3.68_Common-b04aea23098a566944ee9c4dcff997a3dfdefce1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/SenterOpenApi_1.2.3.68_IoT-dbf8cd680cc5941cf31b807edfd8f965ff2baf8d.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/SenterOpenApi_1.2.3.68_IoT-dbf8cd680cc5941cf31b807edfd8f965ff2baf8d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/Volley-8f3d153f6f3c29f1fba3fec607fcc0f406e1e333.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/Volley-8f3d153f6f3c29f1fba3fec607fcc0f406e1e333.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-8f655d79533225df5aea8a96136a1400124111bc.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-8f655d79533225df5aea8a96136a1400124111bc.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-23.3.0-897ebc0694a80182d76fec79b54c76f1a368daca.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-23.3.0-897ebc0694a80182d76fec79b54c76f1a368daca.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jdom-1ade086f58b9fea708fe7a1fdfef04e26c25f0d4.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jdom-1ade086f58b9fea708fe7a1fdfef04e26c25f0d4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/okhttp-2.7.5-2a9cef5a3164b769c2e28f24df37a7f97e11a93a.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/okhttp-2.7.5-2a9cef5a3164b769c2e28f24df37a7f97e11a93a.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/okio-1.11.0-a672bde51d280d1879173d9dd1ac950fb4dee036.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/okio-1.11.0-a672bde51d280d1879173d9dd1ac950fb4dee036.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-23.3.0-9e78d40d157f34b8dbf346345a1d6a8544ee87ae.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-23.3.0-9e78d40d157f34b8dbf346345a1d6a8544ee87ae.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/uhfrhid-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/uhfrhid-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/uhfrhid-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/uhfrhid-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/senter/demo/uhf/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/senter/demo/uhf/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_model_choice.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_model_choice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/commonActivity/BarcodeActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/commonActivity/BarcodeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/commonActivity/ModelChoiceActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/commonActivity/ModelChoiceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/senter/demo/zxing/camera/CameraManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/senter/demo/zxing/camera/CameraManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/activity_barcode.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_barcode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/activity_model_choice.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_model_choice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values-zh-rCN/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uhfrhid.iml" afterPath="$PROJECT_DIR$/uhfrhid.iml" />
     </list>
     <list id="e317c1a2-0ff0-45cf-8760-0829d73ec5dc" name="New changelist" comment="" />
     <ignored path="uhfrhid.iws" />
@@ -210,88 +115,7 @@
     <favorites_list name="uhfrhid" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BarcodeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/commonActivity/BarcodeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_barcode.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_barcode.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelChoiceActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/commonActivity/ModelChoiceActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/values-zh-rCN/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.62963">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/senter/demo/uhf/Adapter/FragmentAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CameraManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/senter/demo/zxing/camera/CameraManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3030303">
-              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_model_choice.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_model_choice.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1238,9 +1062,127 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commonActivity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uhfrhid" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1275,26 +1217,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uhfrhid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uhfrhid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1660,7 +1584,13 @@
       <option name="project" value="LOCAL" />
       <updated>1505538505097</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Zxing">
+      <created>1505546916486</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1505546916486</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1674,7 +1604,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5835655" sideWeight="0.5057307" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24928775" sideWeight="0.49426934" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6296296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.49701494" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1727,7 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1735,7 +1664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1746,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1754,7 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1866,7 +1792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4746193">
           <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1891,7 +1816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1909,7 +1833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1975,7 +1898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.027552674">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1993,7 +1915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6337115">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2004,7 +1925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68881685">
           <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2015,9 +1935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3135215">
           <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2025,7 +1942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4132901">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2052,11 +1968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.3803864">
           <caret line="240" column="25" selection-start-line="240" selection-start-column="25" selection-end-line="240" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8094#8266#0" expanded="true" />
-            <element signature="e#8265#8266#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2071,9 +1982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4947994">
           <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2086,9 +1994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_model_choice.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.24">
           <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2099,7 +2006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2107,7 +2013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -2118,7 +2023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2134,19 +2038,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/senter/demo/zxing/camera/CameraManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3030303">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.6652806">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
         </state>
       </provider>
     </entry>
