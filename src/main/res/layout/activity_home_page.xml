@@ -20,8 +20,9 @@
 
         <LinearLayout
             android:id="@+id/ll_message"
-            android:layout_width="110dp"
+            android:layout_width="0dp"
             android:layout_height="150dp"
+            android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -136,8 +137,9 @@
 
         <LinearLayout
             android:id="@+id/ll_tools"
-            android:layout_width="110dp"
+            android:layout_width="0dp"
             android:layout_height="150dp"
+            android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:gravity="center"
             android:orientation="vertical">

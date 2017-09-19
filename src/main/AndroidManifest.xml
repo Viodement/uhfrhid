@@ -10,20 +10,17 @@
 
     <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <!-- 用于进行网络定位 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!-- 用于访问GPS定位 -->
@@ -55,21 +52,25 @@
         android:icon="@drawable/appreader"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <!--设置key-->
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="75ce5282eb19a981e2daf0a9ed0e2ee5" />
+            android:value="e4a5c0431fb66d6b2278d5efbc631c2c" /> <!--声明定位service-->
+        <service android:name="com.amap.api.location.APSService"></service>
 
-        <service android:name="com.amap.api.location.APSService" />
+        <!--<meta-data-->
+        <!--android:name="com.baidu.lbsapi.API_KEY"-->
+        <!--android:value="X2rxbQOqXljVoBkB7B0oQn6kahVZsa7S" />-->
+
 
         <activity android:name=".commonActivity.ForgetPasswordActivity" />
+
         <activity
             android:name="com.senter.demo.zxing.activity.CaptureActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            android:windowSoftInputMode="stateAlwaysHidden">
-
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <!-- ===================== -->
         <!-- main activity -->
@@ -149,7 +150,8 @@
         <activity android:name=".commonActivity.InActivity" />
         <activity android:name=".commonActivity.PersonalActivity" />
         <activity android:name=".commonActivity.Account_Acitvity" />
-        <activity android:name=".commonActivity.BarcodeActivity"></activity>
+        <activity android:name=".commonActivity.BarcodeActivity" />
+        <activity android:name=".commonActivity.LocationActivity" />
     </application>
 
 </manifest>

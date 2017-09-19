@@ -4,6 +4,11 @@
     <string name="about_msg">UHF Rfid Demo v1.1</string>
     <string name="idStart">Start</string>
     <string name="app_name">Rfid UHF Demo</string>
+    <!--qrcode-->
+    <string name="str_scan_title">scan it</string>
+    <string name="str_open_light">turn on the flash</string>
+    <string name="str_close_light">turn off the flash</string>
+    <string name="str_scan_hint">the framing frame is aimed at the two-dimensional code and can be scanned automatically</string>
     <string-array name="mainOperations">
         <item>Identification</item>
         <item>Power reading and setting</item>
@@ -324,25 +329,25 @@
     <string name="ModelSelect_RememberChoice">Remember the option</string>
     <string name="ModelSelect_ModelDetection">Automatic testing\n(A,B,C,D2,E)</string>
     <string name="idInventoryStopped__PleaseMoveTheTagAndTryAgain">Inventory stopped,please move the tag and try again</string>
-    <string name="Login">请输入帐号</string>
-    <string name="username">请输入帐号</string>
-    <string name="password">请输入密码</string>
-    <string name="cb_rememverpwd">记住密码</string>
-    <string name="forget">忘记密码？</string>
-    <string name="login">登录</string>
-    <string name="forgetpass">联系我们</string>
-    <string name="message">消息提示</string>
-    <string name="promptmessage">提示消息</string>
-    <string name="yes">确定</string>
-    <string name="取消">No</string>
-    <string name="name">姓名</string>
-    <string name="code">编号</string>
-    <string name="machine">仪器</string>
-    <string name="date">日期</string>
-    <string name="MsgToJson">添加</string>
-    <string name="JsonToMsg">解析</string>
-    <string name="resolve">解析</string>
-    <string name="jobnumber">工号</string>
-    <string name="jobid">岗位</string>
-    <string name="joinin">录入</string>
+    <string name="Login">please enter your account</string>
+    <string name="username">please enter your account</string>
+    <string name="password">please enter your password</string>
+    <string name="cb_rememverpwd">remember the password</string>
+    <string name="forget">forget the password？</string>
+    <string name="login">login</string>
+    <string name="forgetpass">contact us</string>
+    <string name="message">notification</string>
+    <string name="promptmessage">prompt message</string>
+    <string name="yes">determine</string>
+    <string name="no">No</string>
+    <string name="name">name</string>
+    <string name="code">code</string>
+    <string name="machine">machine</string>
+    <string name="date">date</string>
+    <string name="MsgToJson">add</string>
+    <string name="JsonToMsg">analysis</string>
+    <string name="resolve">analysis</string>
+    <string name="jobnumber">job number</string>
+    <string name="jobid">job id</string>
+    <string name="joinin">join in</string>
 </resources>

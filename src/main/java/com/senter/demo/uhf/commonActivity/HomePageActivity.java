@@ -3,7 +3,6 @@ package com.senter.demo.uhf.commonActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -82,7 +81,8 @@ public class HomePageActivity extends Activity {
         localImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent locationIntent = new Intent(HomePageActivity.this,Activityocation.class);
+                startActivity(locationIntent);
             }
         });
         //工具使用

@@ -86,6 +86,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/mockable-android-16.jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/release" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
@@ -103,6 +104,7 @@
     <orderEntry type="library" exported="" name="SenterOpenApi_1.2.3.68_Common" level="project" />
     <orderEntry type="library" exported="" name="jdom" level="project" />
     <orderEntry type="library" exported="" name="AMap_Location_V3.5.0_20170731" level="project" />
+    <orderEntry type="library" exported="" name="BaiduLBS_Android" level="project" />
     <orderEntry type="library" exported="" name="zxing" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.3.0" level="project" />
     <orderEntry type="library" exported="" name="okio-1.11.0" level="project" />

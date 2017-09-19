@@ -215,11 +215,13 @@
     <string name="Inventory">盘点</string>
     <string name="ItemName">项名</string>
     <string name="Jinzhi_16_band">十六进制</string>
+    <string name="JsonToMsg">解析</string>
     <string name="JumpLvMode">跳率方式：</string>
     <string name="Label">标签:</string>
     <string name="Length">长度:</string>
     <string name="LockFailure">锁定失败</string>
     <string name="Locked">锁定</string>
+    <string name="Login">请输入帐号</string>
     <string name="MakeSurePDAexitRfid">没有找到Rfid超高频通信模块，请确定当前PDA内存在该模块</string>
     <string name="MastInput_Prompt">请将mask输入为整数个字节</string>
     <string name="MastLength_Insufficient">输入掩码的长度不足</string>
@@ -232,6 +234,7 @@
     <string name="ModelSelect_ModelE">模块E</string>
     <string name="ModelSelect_ModelF">模块F</string>
     <string name="ModelSelect_RememberChoice">记住选择</string>
+    <string name="MsgToJson">添加</string>
     <string name="No">否</string>
     <string name="OK">确定</string>
     <string name="Power">功率：</string>
@@ -274,7 +277,12 @@
     <string name="app_name">超高频读写</string>
     <string name="broadbandCannotGreaterThan12Mhz">基频为50Khz时，带宽不能大于12Mhz</string>
     <string name="broadbandCannotGreaterThan32Mhz">基频为50Khz时，带宽不能大于32Mhz</string>
+    <string name="cb_rememverpwd">记住密码</string>
+    <string name="code">编号</string>
+    <string name="date">日期</string>
     <string name="decimalism">十进制</string>
+    <string name="forget">忘记密码？</string>
+    <string name="forgetpass">联系我们</string>
     <string name="get">获取</string>
     <string name="idConfigureActivity_title">配置</string>
     <string name="idGetPowerFail">功率获取失败</string>
@@ -307,6 +315,17 @@
     <string name="idTagsCount_Colon">标签总数:</string>
     <string name="idUnlockDataActivity_title">解锁数据</string>
     <string name="idWriteActivity_title">写入数据</string>
+    <string name="jobid">岗位</string>
+    <string name="jobnumber">工号</string>
+    <string name="joinin">录入</string>
+    <string name="login">登录</string>
+    <string name="machine">仪器</string>
+    <string name="message">消息提示</string>
+    <string name="name">姓名</string>
+    <string name="no">No</string>
+    <string name="password">请输入密码</string>
+    <string name="promptmessage">提示消息</string>
+    <string name="resolve">解析</string>
     <string name="set">设置</string>
     <string name="startAddr">起始地址</string>
     <string name="str6B">6B</string>
@@ -329,5 +348,8 @@
     <string name="str_scan_title">扫一扫</string>
     <string name="successful">成功</string>
     <string name="unPleaseStopInventoryFirst">请先停止盘点</string>
+    <string name="username">请输入帐号</string>
     <string name="workMode">工作模式:</string>
+    <string name="yes">确定</string>
+    <string name="zxing_bar_name">zxing包文件</string>
 </resources>

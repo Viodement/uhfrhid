@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
@@ -17,19 +18,26 @@ import com.amap.api.maps2d.AMap;
 import com.amap.api.maps2d.CameraUpdateFactory;
 import com.amap.api.maps2d.LocationSource;
 import com.amap.api.maps2d.MapView;
+import com.amap.api.maps2d.UiSettings;
 import com.amap.api.maps2d.model.BitmapDescriptorFactory;
+import com.amap.api.maps2d.model.LatLng;
+import com.amap.api.maps2d.model.MarkerOptions;
 import com.amap.api.maps2d.model.MyLocationStyle;
 import com.senter.demo.uhf.R;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Activityocation extends Activity implements LocationSource,
         AMapLocationListener {
     private AMap aMap;
     private MapView mapView;
-    private OnLocationChangedListener mListener;
-    private AMapLocationClient mlocationClient;
-    private AMapLocationClientOption mLocationOption;
-    private RadioGroup mGPSModeGroup;
-
+    //定位需要的声明
+    private AMapLocationClient mLocationClient = null;// 定位发起端
+    private AMapLocationClientOption mLocationOption = null;// 定位参数
+    private OnLocationChangedListener mListener = null;// 定位监听器
+    //标识，用于判断是否只显示一次定位信息和用户重新定位
+    private boolean isFirstLoc = true;
     private TextView mLocationErrText;
     private static final int STROKE_COLOR = Color.argb(180, 3, 145, 255);
     private static final int FILL_COLOR = Color.argb(10, 0, 0, 180);
@@ -39,10 +47,58 @@ public class Activityocation extends Activity implements LocationSource,
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);// 不显示程序的标题栏
         setContentView(R.layout.activity_activityocation);
+        //显示地图
         mapView = (MapView) findViewById(R.id.map);
-        mapView.onCreate(savedInstanceState);// 此方法必须重写
-        init();
+        //必须要写
+        mapView.onCreate(savedInstanceState);
+        //获取地图对象
+        aMap = mapView.getMap();
+        //设置显示定位按钮 并且可以点击
+        UiSettings settings = aMap.getUiSettings();
+        //设置定位监听
+        aMap.setLocationSource(this);
+        // 是否显示定位按钮
+        settings.setMyLocationButtonEnabled(true);
+        // 是否可触发定位并显示定位层
+        aMap.setMyLocationEnabled(true);
+        //定位的小图标 默认是蓝点 这里自定义一团火，其实就是一张图片
+        MyLocationStyle myLocationStyle = new MyLocationStyle();
+        myLocationStyle.myLocationIcon(BitmapDescriptorFactory.fromResource(R.drawable.gps_point));
+        myLocationStyle.radiusFillColor(android.R.color.transparent);
+        myLocationStyle.strokeColor(android.R.color.transparent);
+        aMap.setMyLocationStyle(myLocationStyle);
+
+
+        //开始定位
+        initLoc();
     }
+
+    //定位
+    private void initLoc() {
+        // 初始化定位
+        mLocationClient = new AMapLocationClient(getApplicationContext());
+        // 设置定位回调监听
+        mLocationClient.setLocationListener(this);
+        // 初始化定位参数
+        mLocationOption = new AMapLocationClientOption();
+        // 设置定位模式为高精度模式，Battery_Saving为低功耗模式，Device_Sensors是仅设备模式
+        mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
+        // 设置是否返回地址信息（默认返回地址信息）
+        mLocationOption.setNeedAddress(true);
+        // 设置是否只定位一次,默认为false
+        mLocationOption.setOnceLocation(false);
+        // 设置是否强制刷新WIFI，默认为强制刷新
+        mLocationOption.setWifiActiveScan(true);
+        // 设置是否允许模拟位置,默认为false，不允许模拟位置
+        mLocationOption.setMockEnable(false);
+        // 设置定位间隔,单位毫秒,默认为2000ms
+        mLocationOption.setInterval(2000);
+        // 给定位客户端对象设置定位参数
+        mLocationClient.setLocationOption(mLocationOption);
+        // 启动定位
+        mLocationClient.startLocation();
+    }
+
 
     /**
      * 初始化
@@ -80,6 +136,95 @@ public class Activityocation extends Activity implements LocationSource,
         aMap.setMyLocationStyle(myLocationStyle);
     }
 
+    //定位回调函数
+    @Override
+    public void onLocationChanged(AMapLocation amapLocation) {
+        if (amapLocation != null) {
+            if (amapLocation.getErrorCode() == 0) {
+                //定位成功回调信息，设置相关消息
+                amapLocation.getLocationType();
+                //获取当前定位结果来源，如网络定位结果，详见官方定位类型表
+                amapLocation.getLatitude();
+                //获取纬度
+                amapLocation.getLongitude();
+                //获取经度
+                amapLocation.getAccuracy();
+                //获取精度信息
+                SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                Date date = new Date(amapLocation.getTime());
+                df.format(date);
+                //定位时间
+                amapLocation.getAddress();
+                //地址，如果option中设置isNeedAddress为false，则没有此结果，网络定位结果中会有地址信息，GPS定位不返回地址信息。
+                amapLocation.getCountry();
+                //国家信息
+                amapLocation.getProvince();
+                //省信息
+                amapLocation.getCity();
+                //城市信息
+                amapLocation.getDistrict();
+                //城区信息
+                amapLocation.getStreet();
+                //街道信息
+                amapLocation.getStreetNum();
+                //街道门牌号信息
+                amapLocation.getCityCode();
+                //城市编码
+                amapLocation.getAdCode();
+                //地区编码如果不设置标志位，此时再拖动地图时，它会不断将地图移动到当前的位置
+                if (isFirstLoc) {
+                    //设置缩放级别
+                    aMap.moveCamera(CameraUpdateFactory.zoomTo(17));
+                    //将地图移动到定位点
+                    aMap.moveCamera(CameraUpdateFactory.changeLatLng(new LatLng(amapLocation.getLatitude(), amapLocation.getLongitude())));
+                    mListener.onLocationChanged(amapLocation);// 显示系统小蓝点
+//                    //添加图钉
+//                    aMap.addMarker(getMarkerOptions(amapLocation));
+                    // 获取定位信息
+                    StringBuffer buffer = new StringBuffer();
+                    buffer.append(amapLocation.getCountry() + "" + amapLocation.getProvince() + "" + amapLocation.getCity() + "" + amapLocation.getProvince() + "" + amapLocation.getDistrict() + "" + amapLocation.getStreet() + "" + amapLocation.getStreetNum());
+                    Toast.makeText(getApplicationContext(), buffer.toString(), Toast.LENGTH_LONG).show();
+                    isFirstLoc = false;
+                }
+            } else {
+                //显示错误信息ErrCode是错误码，errInfo是错误信息，详见错误码表。
+                Log.e("AmapError", "location Error, ErrCode:" + amapLocation.getErrorCode() + ", errInfo:" + amapLocation.getErrorInfo());
+                Toast.makeText(getApplicationContext(), "定位失败", Toast.LENGTH_LONG).show();
+            }
+        }
+    }
+
+    private MarkerOptions getMarkerOptions(AMapLocation amapLocation) {
+        //设置图钉选项
+        MarkerOptions options = new MarkerOptions();
+        //图标
+        options.icon(BitmapDescriptorFactory.fromResource(R.drawable.about));
+        //位置
+        options.position(new LatLng(amapLocation.getLatitude(), amapLocation.getLongitude()));
+        StringBuffer buffer = new StringBuffer();
+        buffer.append(amapLocation.getCountry() + "" + amapLocation.getProvince() + "" + amapLocation.getCity() + "" + amapLocation.getDistrict() + "" + amapLocation.getStreet() + "" + amapLocation.getStreetNum());
+        //标题
+        options.title(buffer.toString());
+//        //子标题
+//        options.snippet("这里好火");
+        //设置多少帧刷新一次图片资源
+        options.period(60);
+        return options;
+
+    }
+
+
+    //激活定位
+    @Override
+    public void activate(OnLocationChangedListener listener) {
+        mListener = listener;
+    } //停止定位
+
+    @Override
+    public void deactivate() {
+        mListener = null;
+    }
+
     /**
      * 方法必须重写
      */
@@ -96,7 +241,6 @@ public class Activityocation extends Activity implements LocationSource,
     protected void onPause() {
         super.onPause();
         mapView.onPause();
-        deactivate();
     }
 
     /**
@@ -115,66 +259,6 @@ public class Activityocation extends Activity implements LocationSource,
     protected void onDestroy() {
         super.onDestroy();
         mapView.onDestroy();
-        if(null != mlocationClient){
-            mlocationClient.onDestroy();
-        }
     }
 
-    /**
-     * 定位成功之后回调函数
-     * @param amapLocation
-     */
-    @Override
-    public void onLocationChanged(AMapLocation amapLocation) {
-        if (mListener != null && amapLocation != null) {
-            if (amapLocation != null
-                    && amapLocation.getErrorCode() == 0) {
-                mLocationErrText.setVisibility(View.GONE);
-                mListener.onLocationChanged(amapLocation);// 显示系统小蓝点
-                aMap.moveCamera(CameraUpdateFactory.zoomTo(18));
-            } else {
-                String errText = "定位失败," + amapLocation.getErrorCode()+ ": " + amapLocation.getErrorInfo();
-                Log.e("AmapErr",errText);
-                mLocationErrText.setVisibility(View.VISIBLE);
-                mLocationErrText.setText(errText);
-            }
-        }
-    }
-
-    /**
-     * 激活定位
-     * @param listener
-     */
-    @Override
-    public void activate(OnLocationChangedListener listener) {
-        mListener = listener;
-        if (mlocationClient == null) {
-            mlocationClient = new AMapLocationClient(this);
-            mLocationOption = new AMapLocationClientOption();
-            //设置定位监听
-            mlocationClient.setLocationListener(this);
-            //设置为高精度定位模式
-            mLocationOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);
-            //设置定位参数
-            mlocationClient.setLocationOption(mLocationOption);
-            // 此方法为每隔固定时间会发起一次定位请求，为了减少电量消耗或网络流量消耗，
-            // 注意设置合适的定位时间的间隔（最小间隔支持为2000ms），并且在合适时间调用stopLocation()方法来取消定位请求
-            // 在定位结束后，在合适的生命周期调用onDestroy()方法
-            // 在单次定位情况下，定位无论成功与否，都无需调用stopLocation()方法移除请求，定位sdk内部会移除
-            mlocationClient.startLocation();
-        }
-    }
-
-    /**
-     * 停止定位
-     */
-    @Override
-    public void deactivate() {
-        mListener = null;
-        if (mlocationClient != null) {
-            mlocationClient.stopLocation();
-            mlocationClient.onDestroy();
-        }
-        mlocationClient = null;
-    }
 }
